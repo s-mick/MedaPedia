@@ -17,7 +17,9 @@
           "headline": "Me'eda nomades"
         },
         "background": {
-          "color": "faf6df"
+          "color": "#faf6df",
+          "opacity": 50,
+          "url": null
         }
       },
       {
@@ -85,6 +87,11 @@
         "text": {
           "headline": "Errance des tribus me'eda à travers le continent",
           "text": "<p>Dépourvus de terres, les Me'eda adoptent un mode de vie nomade et parcourent le continent à la recherche de contrées où s'établir. Ils sont à plusieurs reprises chassés de leurs habitats temporaires par des peuples humains ou Kala'em s'opposant à leur présence durable sur leurs terres.</p>"
+        },
+        "background": {
+          "color": "#faf6df",
+          "opacity": 50,
+          "url": null
         }
       },
       {
