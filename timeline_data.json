@@ -5,7 +5,7 @@
         "text": "<p>Près de dix-huit siècles se sont écoulés depuis la découverte de ces terres par les tribus nomades me'eda, ancêtres des Meda-vê et premier peuple humain à s'établir dans ces contrées. Cette frise chronologique retrace les événements marquants et les périodes majeures qui ont jalonné l'histoire des peuples humains vivant et ayant vécu à Medainë.</p>"
       }
     },
-    "slides": [
+    "eras": [
       {
         "start_date": {
           "year": "-1300"
