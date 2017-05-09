@@ -67,6 +67,9 @@
         "start_date": {
           "year": "-1300"
         },
+        "end_date": {
+        "year": "-1100"
+        },
         "text": {
           "headline": "Errance des tribus me'eda à travers le continent",
           "text": "<p>Dépourvus de terres, les Me'eda adoptent un mode de vie nomade et parcourent le continent à la recherche de contrées où s'établir. Ils sont à plusieurs reprises chassés de leurs habitats temporaires par des peuples humains ou Kala'em s'opposant à leur présence durable sur leurs terres.</p>"
@@ -75,6 +78,9 @@
       {
         "start_date": {
           "year": "-1100"
+        },
+        "end_date": {
+          "year": "1050"
         },
         "text": {
           "headline": "Sédentarisation du peuple Me'eda",
@@ -85,6 +91,9 @@
         "start_date": {
           "year": "-1050"
         },
+        "end_date": {
+          "year": "-800"
+        },
         "text": {
           "headline": "Expansion des Me'eda",
           "text": "<p>Arrivés par la passe de Savad à l'Ouest, les Me'eda entreprennent de poursuivre à l'Est leur avancée dans ces terres inconnues des humains. Au fil de la dispersion de la population, les rencontres avec des Kala'em autochtones donnent lieu au tracé, tacite ou formel, des premières frontières du pays. Au Nord, la chaîne des Ymia forme une frontière naturelle et au-delà, le bois de Moen est peuplé d'animaux et divinités farouches. Au Sud-Est, le marais de Goro Zan, très inhospitalier, interdit toute expansion. À l'Est, les géants de la steppe de la Ma'av, par un puissant sortilège, imposent aux Me'eda de cesser d'avancer sur leurs terres.</p>"
@@ -93,6 +102,9 @@
       {
         "start_date": {
           "year": "-800"
+        },
+        "end_date": {
+          "year": "-660"
         },
         "text": {
           "headline": "Exploration et aménagement du territoire",
@@ -156,6 +168,9 @@
       {
         "start_date": {
           "year": "-592"
+        },
+        "end_date": {
+          "year": "-568"
         },
         "text": {
           "headline": "Morcellement du pays en neuf royaumes",
