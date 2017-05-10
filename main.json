@@ -135,17 +135,6 @@
           "text": "<p>Désormais largement dispersées dans le pays, les tribus me'eda s'émancipent peu à peu les unes des autres et délimitent leurs propres territoires. Plusieurs chefs de tribu, désireux d'asseoir plus fermement leur pouvoir, fondent des royaumes indépendants et prennent la tête des dynasties au pouvoir. Dans les décennies qui suivent, les autres chefs de tribu finissent par imiter ces nouveaux rois et au total, neuf couronnes se créent dans le pays, recouvrant l'intégralité du territoire.</p>"
         }
       },
-      {
-        "start_date": {
-          "year": "-570"
-        },
-        "end_date": {
-          "year": "-350"
-        },
-        "text": {
-          "headline": "Conflits territoriaux et guerres entre royaumes",
-          "text": "<p>Du fait de l'absence totale de concertation et de négociation entre chefs de tribu lors de la fondation des royaumes, les nouvelles couronnes ne tardent pas à se disputer la souveraineté sur certaines terres. Le contrôle d'un canal, d'une route commerciale d'une voie fluviale ou encore de terres recelant des gisements de minerai constitue un enjeu stratégique de taille, au point que certaines rivalités entre royaumes dégénèrent en guerres meurtrières. Pendant plus de deux siècles, les conflits se succèdent et les territoires disputés passent d'un royaume à un autre.</p>"
-        }
-      }
+      
     ]
 }
