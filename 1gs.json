@@ -59,30 +59,6 @@
           "headline": "Les Me'eda reprennent Kodosha-da, la guerre s'achève",
           "text": "<p>Après un an de siège, les soldats défendant la cité de l'Ouest, démoralisés et abandonnés par leur roi, capitulent malgré les ordres contraires de leur commandement de campagne. Les Me'eda viennent ainsi à bout des dernières troupes de Silig et reprennent enfin le contrôle de tout leur territoire. Cependant, bien que chacune des parties retrouve de fait ses frontières précédentes, aucun accord de paix n'est établi pour officialiser l'arrêt des combats.</p><p>Dans les mois qui suivent leur victoire, les troupes me'eda se massent le long de la passe de Savad, qu'ils renforcent par des ouvrages défensifs rudimentaires. Les prisonniers capturés lors des retraites et des redditions sont libérés au compte-goutte et en différents endroits de la frontière, pour garantir la dispersion totale de l'armée ennemie.</p>"
         }
-      },
-      {
-        "start_date": {
-          "year": "-570"
-        },
-        "end_date": {
-          "year": "-340"
-        },
-        "text": {
-          "headline": "Conflits territoriaux et guerres entre royaumes",
-          "text": "<p>Du fait de l'absence totale de concertation et de négociation entre chefs de tribu lors de la fondation des royaumes, les nouvelles couronnes ne tardent pas à se disputer la souveraineté sur certaines terres. Le contrôle d'un canal, d'une route commerciale d'une voie fluviale ou encore de terres recelant des gisements de minerai constitue un enjeu stratégique de taille, au point que certaines rivalités entre royaumes dégénèrent en guerres meurtrières. Pendant plus de deux siècles, les conflits se succèdent et les territoires disputés passent d'un royaume à un autre.</p>"
-        }
-      },
-      {
-        "start_date": {
-          "year": "-328"
-        },
-        "end_date": {
-          "year": "-322"
-        },
-        "text": {
-          "headline": "Deuxième guerre savadique",
-          "text": "Les royaumes étrangers de Silig et Albe assaillent le royaume de Kodosha avec le renfort de plusieurs tribus peuplant les montagnes de part et d'autre de la passe de Savad. Face à une force d'invasion de près de trente mille soldats, Kodosha est conquis en quelques mois et les envahisseurs placent sur le trône un monarque fantoche, institué comme vassal de la couronne de Silig. La famille royale légitime se réfugie à Taalses, tandis que les autres royaumes me'eda assistent à cette agression avec inquiétude, mais sans oser intervenir</p><p>Trois ans plus tard, Taalses entre en guerre sur le motif d'un incident diplomatique et envoie une armée de six mille soldats à la reconquête de Kodosha, vulnérable depuis le départ de l'essentiel de l'armée de l'occupant.</p>"
-        }
       }
     ]
 }
