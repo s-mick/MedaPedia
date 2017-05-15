@@ -33,7 +33,7 @@
 
 <!-- 3 -->
 <?php
-$valid_ids = array('main');
+$valid_ids = array('main', '1gs');
 if (isset($_GET['id']) && in_array($_GET['id'], $valid_ids) )
     $id = $_GET['id'];
 else
