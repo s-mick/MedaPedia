@@ -119,8 +119,8 @@
           "year": "-644"
         },
         "text": {
-          "headline": "Première guerre savadique",
-          "text": "<p>Les Me'eda doivent faire face à la première agression militaire à leur encontre depuis leur sédentarisation : le roi de Silig, royaume voisin situé à l'Ouest de la passe de Savad, lève un ost de près de sept mille soldats et ordonne l'invasion de Medainë. Pris au dépourvu, les Me'eda fuient d'abord vers le Nord et l'Est du pays, abandonnant leurs villes à l'envahisseur, qui progresse jusqu'à étirer la ligne de front au maximum des capacités de ses troupes.</p><p>Les Me'eda, intrépides chasseurs et excellents cavaliers, contre-attaquent l'années suivante en lançant leurs tireurs montés à l'assaut des positions ennemies, rendues vulnérables par la dispersion des troupes sur le territoire conquis. Après deux ans d'escarmouches et d'attaques éclairs, l'armée de Silig doit battre en retraite face à la cavalerie me'eda qui les tiraille sans relâche. Celle-ci parvient même à prendre de vitesse ses ennemis et les force à se terrer dans Kodosha-da après avoir coupé leurs voies d'approvisionnement. La guerre prend fin avec la capitulation des troupes de Silig, assiégées depuis un an, démoralisées et abandonnées par leur roi.</p>"
+          "headline": "Première guerre savadique<br/>",
+          "text": "<p><i><a href='frise.php?id=1gs'>Frise détaillée</a></i></p><p>Les Me'eda doivent faire face à la première agression militaire à leur encontre depuis leur sédentarisation : le roi de Silig, royaume voisin situé à l'Ouest de la passe de Savad, lève un ost de près de sept mille soldats et ordonne l'invasion de Medainë. Pris au dépourvu, les Me'eda fuient d'abord vers le Nord et l'Est du pays, abandonnant leurs villes à l'envahisseur, qui progresse deux ans durant jusqu'à étirer la ligne de front au maximum des capacités de ses troupes.</p><p>Les Me'eda, intrépides chasseurs et excellents cavaliers, contre-attaquent l'année suivante en lançant leurs tireurs montés à l'assaut des positions ennemies, rendues vulnérables par la dispersion des troupes sur le territoire conquis. Après deux ans d'escarmouches et d'attaques éclairs, l'armée de Silig doit battre en retraite face à la cavalerie me'eda qui les tiraille sans relâche. Celle-ci parvient même à prendre de vitesse ses ennemis et les force à se terrer dans Kodosha-da après avoir coupé leurs voies d'approvisionnement. La guerre prend fin avec la capitulation des troupes de Silig, assiégées depuis un an, démoralisées et abandonnées par leur roi.</p>"
         }
       },
       {
@@ -140,11 +140,23 @@
           "year": "-570"
         },
         "end_date": {
-          "year": "-350"
+          "year": "-340"
         },
         "text": {
           "headline": "Conflits territoriaux et guerres entre royaumes",
           "text": "<p>Du fait de l'absence totale de concertation et de négociation entre chefs de tribu lors de la fondation des royaumes, les nouvelles couronnes ne tardent pas à se disputer la souveraineté sur certaines terres. Le contrôle d'un canal, d'une route commerciale d'une voie fluviale ou encore de terres recelant des gisements de minerai constitue un enjeu stratégique de taille, au point que certaines rivalités entre royaumes dégénèrent en guerres meurtrières. Pendant plus de deux siècles, les conflits se succèdent et les territoires disputés passent d'un royaume à un autre.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-328"
+        },
+        "end_date": {
+          "year": "-322"
+        },
+        "text": {
+          "headline": "Deuxième guerre savadique",
+          "text": "Les royaumes étrangers de Silig et Albe assaillent le royaume de Kodosha avec le renfort de plusieurs tribus peuplant les montagnes de part et d'autre de la passe de Savad. Face à une force d'invasion de près de trente mille soldats, Kodosha est conquis en quelques mois et les envahisseurs placent sur le trône un monarque fantoche, institué comme vassal de la couronne de Silig. La famille royale légitime se réfugie à Taalses, tandis que les autres royaumes me'eda assistent à cette agression avec inquiétude, mais sans oser intervenir</p><p>Trois ans plus tard, Taalses entre en guerre sur le motif d'un incident diplomatique et envoie une armée de six mille soldats à la reconquête de Kodosha, vulnérable depuis le départ de l'essentiel de l'armée de l'occupant.</p>"
         }
       }
     ]

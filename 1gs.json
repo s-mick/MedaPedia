@@ -1,0 +1,88 @@
+{
+    "title": {
+      "text": {
+        "headline": "Première guerre savadique",
+        "text": "<p>En -651, menacés d'invasion par le royaume de Silig à l'Ouest de leurs terres, les Me'eda doivent faire face à la première agression militaire à leur encontre depuis leur sédentarisation quatre siècles plus tôt. Le conflit durera sept ans, au cours desquels les Me'eda n'auront d'autre choix que de s'improviser guerriers en usant de leurs talents de chasseurs et de cavaliers pour défendre leur vie et leur liberté.</p>"
+      }
+    },
+    "events": [
+      {
+        "start_date": {
+          "year": "-651"
+        },
+        "text": {
+          "headline": "Silig envahit Kodosha",
+          "text": "<p>Lancée à la conquête de Medainë par le roi de Silig, une armée de près de sept mille soldats franchit la passe de Savad et marche sur les villes les plus proches de la frontière. La population me'eda, prise au dépourvue et sans défense, fuit vers l'Est sur ordre de ses chefs de tribu, abandonnant villes et villages pour trouver refuge dans les régions encore épargnées par l'envahisseur.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-649"
+        },
+        "text": {
+          "headline": "L'envahisseur progresse",
+          "text": "<p>L'armée de Silig, enhardie par sa progression incontestée, déploie ses troupes tous azimuts autour de Kodosha-da, conquise et fortifiée de murs de bois pour en faire la tête de pont de leur invasion. La zone conquise s'étend ainsi jusqu'à ce que les troupes se soient dispersées au maximum de leurs capacités. L'armée assaillante est alors divisée en nombreux contingents tenant les lieux stratégiques tout le long de la ligne de front.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-648"
+        },
+        "text": {
+          "headline": "Contre-attaque des Me'eda",
+          "text": "<p>Du côté des Me'eda, les chefs réunis en urgence organisent la contre-attaque et rassemblent leurs forces pour résister à l'envahisseur. Malgré l'absence d'armée conventionnelle chez les Me'eda, ceux-ci disposent d'intrépides chasseurs et d'excellents cavaliers, qui mènent de nombreuses attaques éclairs sur les positions ennemies les plus vulnérables. Privilégiant les escarmouches et les embuscades et évitant la moindre bataille rangée, ils mènent leurs assauts par petites unités mobiles de tireurs montés, autonomes ou supportées par de l'infanterie légère.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-646"
+        },
+        "text": {
+          "headline": "L'envahisseur bat en retraite",
+          "text": "<p>LLes assauts des cavaliers me'eda se poursuivent inlassablement et érodent la ligne de front tandis que les troupes d'invasion s'amenuisent. L'état-major de Silig, devant les pertes qui s'accumulent depuis deux ans et l'impasse tactique qui les paralyse, se résout à ordonner un repli de ses troupes les plus avancées et tente de reformer ses rangs autour de ses positions aux environs de Kodosha-da. Disposant toujours de l'avantage de la mobilité, les Me'eda en profitent pour traquer les soldats qui se replient. En plusieurs endroits de la ligne de front, le moral de ces derniers finit par céder, causant désertions, capitulations et capture de nombreux prisonniers.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-645"
+        },
+        "text": {
+          "headline": "Les Me'eda encerclent les troupes de Silig et assiègent Kodosha-da",
+          "text": "<p>Les troupes me'eda prennent de vitesse l'armée ennemie, la débordent au Nord et au Sud et parviennent à mettre à mal les voies de ravitaillement des envahisseurs, qui transitaient par la passe de Savad. Privé du soutien matériel et des renforts venus de Silig, le reste de la force d'invasion, rassemblé autour de Kodosha-da, se retrouve isolé et vulnérable aux assauts des forces me'eda. Celles-ci reprennent le contrôle des villages et des campagnes de la région, jusqu'à forcer l'envahisseur à se terrer derrière les murs de la dernière ville sous leur contrôle, Kodosha-da. Le roi de Silig se résout à abandonner ses espoirs d'invasion et abandonne ses troupes encore présentes à Medainë plutôt que de tenter de leur venir en aide par l'envoi d'une nouvelle armée.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-644"
+        },
+        "text": {
+          "headline": "Les Me'eda reprennent Kodosha-da, la guerre s'achève",
+          "text": "<p>Après un an de siège, les soldats défendant la cité de l'Ouest, démoralisés et abandonnés par leur roi, capitulent malgré les ordres contraires de leur commandement de campagne. Les Me'eda viennent ainsi à bout des dernières troupes de Silig et reprennent enfin le contrôle de tout leur territoire. Cependant, bien que chacune des parties retrouve de fait ses frontières précédentes, aucun accord de paix n'est établi pour officialiser l'arrêt des combats.</p><p>Dans les mois qui suivent leur victoire, les troupes me'eda se massent le long de la passe de Savad, qu'ils renforcent par des ouvrages défensifs rudimentaires. Les prisonniers capturés lors des retraites et des redditions sont libérés au compte-goutte et en différents endroits de la frontière, pour garantir la dispersion totale de l'armée ennemie.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-570"
+        },
+        "end_date": {
+          "year": "-340"
+        },
+        "text": {
+          "headline": "Conflits territoriaux et guerres entre royaumes",
+          "text": "<p>Du fait de l'absence totale de concertation et de négociation entre chefs de tribu lors de la fondation des royaumes, les nouvelles couronnes ne tardent pas à se disputer la souveraineté sur certaines terres. Le contrôle d'un canal, d'une route commerciale d'une voie fluviale ou encore de terres recelant des gisements de minerai constitue un enjeu stratégique de taille, au point que certaines rivalités entre royaumes dégénèrent en guerres meurtrières. Pendant plus de deux siècles, les conflits se succèdent et les territoires disputés passent d'un royaume à un autre.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-328"
+        },
+        "end_date": {
+          "year": "-322"
+        },
+        "text": {
+          "headline": "Deuxième guerre savadique",
+          "text": "Les royaumes étrangers de Silig et Albe assaillent le royaume de Kodosha avec le renfort de plusieurs tribus peuplant les montagnes de part et d'autre de la passe de Savad. Face à une force d'invasion de près de trente mille soldats, Kodosha est conquis en quelques mois et les envahisseurs placent sur le trône un monarque fantoche, institué comme vassal de la couronne de Silig. La famille royale légitime se réfugie à Taalses, tandis que les autres royaumes me'eda assistent à cette agression avec inquiétude, mais sans oser intervenir</p><p>Trois ans plus tard, Taalses entre en guerre sur le motif d'un incident diplomatique et envoie une armée de six mille soldats à la reconquête de Kodosha, vulnérable depuis le départ de l'essentiel de l'armée de l'occupant.</p>"
+        }
+      }
+    ]
+}
