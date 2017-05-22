@@ -15,12 +15,12 @@
     
     
     /* Custom color codes for eras */
-    .tl-timeera-background{background-color:#6f90b6 !important;}.tl-timeera.tl-timeera-color0 /* Maaduga > Bleu */
+    .tl-timeera-background{background-color:#cec597 !important;}.tl-timeera.tl-timeera-color0 /* Maaduga */
     .tl-timeera-background{background-color:#999999 !important;}.tl-timeera.tl-timeera-color1 /* ?? */
-    .tl-timeera-background{background-color:#bab887 !important;}.tl-timeera.tl-timeera-color2 /* Nomades > Beige */
-    .tl-timeera-background{background-color:#539843 !important;}.tl-timeera.tl-timeera-color3 /* Tribus > Vert */
-    .tl-timeera-background{background-color:#c66f55 !important;}.tl-timeera.tl-timeera-color4 /* Royaumes > Rouge */
-    .tl-timeera-background{background-color:#b6ad55 !important;}.tl-timeera.tl-timeera-color4 /* Razhiga > Or */
+    .tl-timeera-background{background-color:#cec597 !important;}.tl-timeera.tl-timeera-color2 /* Nomades */
+    .tl-timeera-background{background-color:#a7a17b !important;}.tl-timeera.tl-timeera-color3 /* Tribus */
+    .tl-timeera-background{background-color:#cec597 !important;}.tl-timeera.tl-timeera-color4 /* Royaumes */
+    .tl-timeera-background{background-color:#a7a17b !important;}.tl-timeera.tl-timeera-color4 /* Razhiga */
 </style>
 </head>
 <body>

@@ -2,7 +2,7 @@
     "title": {
       "text": {
         "headline": "Histoire humaine de Medainë<br/>De l'arrivée des Me'eda à nos jours",
-        "text": "<p>Près de dix-huit siècles se sont écoulés depuis la découverte de ces terres par les tribus nomades me'eda, ancêtres des Meda-vê et premier peuple humain à s'établir dans ces contrées. Cette frise chronologique retrace les événements marquants et les périodes majeures qui ont jalonné l'histoire des peuples humains vivant et ayant vécu à Medainë.</p>"
+        "text": "<p>Près de dix-huit siècles se sont écoulés depuis la découverte de ces terres par les tribus nomades me'eda, ancêtres des Meda-vê et premier peuple humain à s'établir dans ces contrées. Cette frise chronologique retrace les événements marquants et les périodes majeures qui ont jalonné l'histoire des peuples humains vivant et ayant vécu à Medainë.</p><p><i>Code couleur des événements :</i></p><ul><li style='color:156523'>Culture</li><li style='color:90770f'>Économie</li><li style='color:980404'>Militaire</li><li style='color:244f9a'>Politique et diplomatie</li></ul>"
       }
     },
     "eras": [
@@ -95,20 +95,20 @@
           "year": "-800"
         },
         "text": {
-          "headline": "Expansion des Me'eda",
+          "headline": "Expansion du territoire des Me'eda",
           "text": "<p>Arrivés par la passe de Savad à l'Ouest, les Me'eda entreprennent de poursuivre à l'Est leur avancée dans ces terres inconnues des humains. Au fil de la dispersion de la population, les rencontres avec des Kala'em autochtones donnent lieu au tracé, tacite ou formel, des premières frontières du pays. Au Nord, la chaîne des Ymia forme une frontière naturelle et au-delà, le bois de Moen est peuplé d'animaux et divinités farouches. Au Sud-Est, le marais de Goro Zan, très inhospitalier, interdit toute expansion. À l'Est, les géants de la steppe de la Ma'av, par un puissant sortilège, imposent aux Me'eda de cesser d'avancer sur leurs terres.</p>"
         }
       },
       {
         "start_date": {
-          "year": "-800"
+          "year": "-950"
         },
         "end_date": {
           "year": "-660"
         },
         "text": {
           "headline": "<div style='color:#90770f'>Exploration et aménagement du territoire<div>",
-          "text": "<p>Les villes grandissent, la population croît rapidement et les Me'eda continuent à s'établir partout où ils le peuvent sur ces terres, dessinant peu à peu les contours du pays. Pour faciliter le transport et la communication, ils aménagent des routes de terres, ainsi que des voies fluviales et des canaux facilitant les échanges d'une ville à l'autre. Les Me'eda se mettent également à la recherche de gisements de minerai</p>"
+          "text": "<p>Les villes grandissent, la population croît rapidement et les Me'eda continuent à s'établir partout où ils le peuvent sur ces terres, dessinant peu à peu les contours du pays. Pour faciliter le transport et la communication, ils aménagent des routes de terres, ainsi que des voies fluviales et des canaux facilitant les échanges d'une ville à l'autre. Les Me'eda se mettent également à la recherche de gisements de minerai, tandis que la métallurgie se développe pour répondre aux nouveaux besoins apparus avec l'essor de l'agriculture et de l'artisanat.</p>"
         }
       },
       {
