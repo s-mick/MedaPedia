@@ -83,8 +83,8 @@
           "year": "-1050"
         },
         "text": {
-          "headline": "Sédentarisation du peuple Me'eda",
-          "text": "<p>Après avoir longé la chaîne des monts Ymia par l'Ouest, les Me'eda quittent le royaume de Silig à l'Ouest, franchissent la passe de Savad et progressent vers l'Est. Découvrant enfin des terres hospitalières et vierges de toute présence humaine, ils s'approprient promptement cette contrée qui deviendra le pays de Medainë, abandonnent leur mode de vie nomade et fondent leurs premiers villages aux emplacements les plus accueillants.</p>"
+          "headline": "<div style='color:#156523'>Sédentarisation du peuple Me'eda</div>",
+          "text": "<p>Après avoir longé la chaîne des monts Ymia par l'Ouest, les Me'eda quittent le royaume de Silig, franchissent la passe de Savad et progressent vers l'Est. Découvrant enfin des terres hospitalières et vierges de toute présence humaine, ils s'approprient promptement cette contrée qui deviendra le pays de Medainë, abandonnent leur mode de vie nomade et fondent leurs premiers villages aux emplacements les plus accueillants.</p>"
         }
       },
       {
@@ -107,8 +107,8 @@
           "year": "-660"
         },
         "text": {
-          "headline": "Exploration et aménagement du territoire",
-          "text": "<p>Les villes grandissent, la population croît rapidement et les Me'eda continuent à s'établir partout où ils le peuvent sur ces terres, dessinant peu à peu les contours du pays. Pour faciliter le transport et la communication, ils aménagent des routes de terres, ainsi que des voies fluviales et des canaux facilitant les échanges d'une ville à l'autre.</p>"
+          "headline": "<div style='color:#90770f'>Exploration et aménagement du territoire<div>",
+          "text": "<p>Les villes grandissent, la population croît rapidement et les Me'eda continuent à s'établir partout où ils le peuvent sur ces terres, dessinant peu à peu les contours du pays. Pour faciliter le transport et la communication, ils aménagent des routes de terres, ainsi que des voies fluviales et des canaux facilitant les échanges d'une ville à l'autre. Les Me'eda se mettent également à la recherche de gisements de minerai</p>"
         }
       },
       {
@@ -119,7 +119,7 @@
           "year": "-644"
         },
         "text": {
-          "headline": "<p style='color:#980404'>Première guerre savadique</p>",
+          "headline": "<div style='color:#980404'>Première guerre savadique</div>",
           "text": "<p><i><a href='frise.php?id=1gs'>Frise détaillée</a></i></p><p>Les Me'eda doivent faire face à la première agression militaire à leur encontre depuis leur sédentarisation : le roi de Silig, royaume voisin situé à l'Ouest de la passe de Savad, lève un ost de près de sept mille soldats et ordonne l'invasion de Medainë. Pris au dépourvu, les Me'eda fuient d'abord vers le Nord et l'Est du pays, abandonnant leurs villes à l'envahisseur, qui progresse deux ans durant jusqu'à étirer la ligne de front au maximum des capacités de ses troupes.</p><p>Les Me'eda, intrépides chasseurs et excellents cavaliers, contre-attaquent l'année suivante en lançant leurs tireurs montés à l'assaut des positions ennemies, rendues vulnérables par la dispersion des troupes sur le territoire conquis. Après deux ans d'escarmouches et d'attaques éclairs, l'armée de Silig doit battre en retraite face à la cavalerie me'eda qui les tiraille sans relâche. Celle-ci parvient même à prendre de vitesse ses ennemis et les force à se terrer dans Kodosha-da après avoir coupé leurs voies d'approvisionnement. La guerre prend fin avec la capitulation des troupes de Silig, assiégées depuis un an, démoralisées et abandonnées par leur roi.</p>"
         }
       },
@@ -131,7 +131,7 @@
           "year": "-568"
         },
         "text": {
-          "headline": "<p style='color:#244f9a'>Morcellement du pays en neuf royaumes</p>",
+          "headline": "<div style='color:#244f9a'>Morcellement du pays en neuf royaumes</div>",
           "text": "<p>Désormais largement dispersées dans le pays, les tribus me'eda s'émancipent peu à peu les unes des autres et délimitent leurs propres territoires. Plusieurs chefs de tribu, désireux d'asseoir plus fermement leur pouvoir, fondent des royaumes indépendants et prennent la tête des dynasties au pouvoir. Dans les décennies qui suivent, les autres chefs de tribu finissent par imiter ces nouveaux rois et au total, neuf couronnes se créent dans le pays, recouvrant l'intégralité du territoire.</p>"
         }
       },
@@ -143,7 +143,7 @@
           "year": "-340"
         },
         "text": {
-          "headline": "<p style='color:#980404'>Conflits territoriaux et guerres entre royaumes</p>",
+          "headline": "<div style='color:#980404'>Conflits territoriaux et guerres entre royaumes</div>",
           "text": "<p>Du fait de l'absence totale de concertation et de négociation entre chefs de tribu lors de la fondation des royaumes, les nouvelles couronnes ne tardent pas à se disputer la souveraineté sur certaines terres. Le contrôle d'un canal, d'une route commerciale d'une voie fluviale ou encore de terres recelant des gisements de minerai constitue un enjeu stratégique de taille, au point que certaines rivalités entre royaumes dégénèrent en guerres meurtrières. Pendant plus de deux siècles, les conflits se succèdent et les territoires disputés passent d'un royaume à un autre.</p>"
         }
       },
@@ -155,7 +155,7 @@
           "year": "-322"
         },
         "text": {
-          "headline": "<p style='color:#980404'>Deuxième guerre savadique</p>",
+          "headline": "<div style='color:#980404'>Deuxième guerre savadique</div>",
           "text": "Les royaumes étrangers de Silig et Aleb assaillent le royaume de Kodosha avec le renfort de plusieurs tribus peuplant les montagnes de part et d'autre de la passe de Savad. Face à une force d'invasion de près de trente mille soldats, Kodosha est conquis en quelques mois et les envahisseurs placent sur le trône un monarque fantoche, institué comme vassal de la couronne de Silig. La famille royale légitime se réfugie à Taalses, tandis que les autres royaumes me'eda assistent à cette agression avec inquiétude, mais sans oser intervenir</p><p>Trois ans plus tard, Taalses entre en guerre sur le motif d'un incident diplomatique et envoie une armée de six mille soldats à la reconquête de Kodosha, devenue plus vulnérable depuis le départ de l'essentiel de l'armée de l'occupant. La guerre fait rage trois ans durant sans qu'aucun belligérant ne parvienne à prendre le dessus, jusqu'à ce que d'autres royaumes de Medainë prennent part au conflit. En effet, ceux-ci souffrent du blocage croissant des voies de communication vers l'Ouest, et sont finalement persuadés de venir au secours de Kodosha par les actes sacrilèges commis par l'occupant. L'alliance des forces me'eda face à l'occupant est décisive pour l'issue du conflit : avec le soutien des autres royaumes du pays, Kodosha est reconquis l'année suivante, et la dynastie royale légitime est réinstituée sur le trône. Devant le regain de solidarité entre les royaumes me'eda, Aleb et Silig préfèrent abandonner leurs ambitions conquérantes. Les vainqueurs leur imposent une paix coûteuse ainsi que le retrait permanent de toutes leurs forces armées sur une frange d'environ quarante kilomètres de large s'étendant sur toute la longueur de la frontière savadique.</p>"
         }
       },
@@ -164,8 +164,8 @@
           "year": "-298"
         },
         "text":{
-          "headline": "<p style='color:#194083'>Union des couronnes de Taalses et Kodosha",
-          "text": "<p>Rapprochées par l'épreuve âpre de la deuxième guerre savadique, les familles royales de Taalses et Kodosha décident d'unir leurs royaumes sous une même couronne. L'alliance est conclue par un </p>"
+          "headline": "<div style='color:#244f9a'>Union des couronnes de Taalses et Kodosha</div>",
+          "text": "<p>Rapprochées par l'épreuve âpre de la deuxième guerre savadique, les familles royales de Taalses et Kodosha décident d'unir leurs royaumes sous une même couronne. Pour sceller cette alliance, les deux héritiers de ces royaumes, la princesse aînée de Taalses et le prince aîné de Kodosha, s'unissent par une sinmae et adoptent le neveu du prince, qui est aussi le premier petit-fils de la reine de Kodosha. L'enfant est destiné à devenir le premier monarque régnant officiellement sur les deux royaumes.</p><p>Par sa souveraineté totale sure les routes et voies fluviales menant à l'étranger vers l'Ouest, la double couronne contrôle d'une poigne de fer les échanges commerciaux qui en dépendent, et taxe sévèrement les marchandises qui transitent par ces routes.</p>"
         }
       }
     ]
