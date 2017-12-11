@@ -174,7 +174,16 @@
         },
         "text":{
           "headline": "<div style='color:#244f9a'>Chuzan et Porara forment l'Alliance du Nord</div>",
-          "text": "<p>Afin de défendre plus fermement leurs intérêts face à la double couronne de Taalses-Kosodha, les deux royaumes du nord du pays décident d'unir leurs forces. Chuzan et Porara constituent ainsi l'Alliance du Nord, une entente à la fois militaire et commerciale pour mieux résister aux restrictions imposées par le royaume nouvellement unifié à l'ouest. Désormais en mesure de faire davantage pression sur celui-ci, ils entreprennent également de contourner les péages qu'il impose, en développant de nouvelles voies commerciales traversant la chaîne des Ymia par les cols et vallées les plus praticables.</p>"
+          "text": "<p>Afin de défendre plus fermement leurs intérêts face à la double couronne de Taalses-Kodosha, les deux royaumes du nord du pays décident d'unir leurs forces. Chuzan et Porara constituent ainsi l'Alliance du Nord, une entente à la fois militaire et commerciale pour mieux résister aux restrictions imposées par le royaume nouvellement unifié à l'ouest. Désormais en mesure de faire davantage pression sur celui-ci, ils tentent également de contourner les péages qu'il impose, en développant de nouvelles voies commerciales traversant la chaîne des Ymia par les cols et vallées les plus praticables. Sur le plan économique, le résultat n'est pas des plus convaincants, mais les efforts entrepris par l'Alliance du Nord la rapproche diplomatiquement et commercialement des tribus des montagnes.</p>"
+        }
+      },
+      {
+        "start_date":{
+          "year": "-264"
+        },
+        "text":{
+          "headline": "<div style='color:#244f9a'>Une seconde alliance est conclue par les royaumes du Sud, Yomba et Istuuk</div>",
+          "text": "<p>Dans le sillage de l'Alliance du Nord, Yomba et Istuuk concluent d'étroits accords commerciaux, soucieux de ne pas être dépassés par la concentration des pouvoirs économiques qui s'opère dans le pays. Dans le secret, les deux royaumes se prêtent également assistance militaire mutuelle, craignant que les rivalités économiques ne dégénèrent bientôt en un conflit armé de grande ampleur. Afin de préparer leurs défenses, Istuuk accélère l'extraction et l'exploitation des minerais métallifères situés au sud de la cité de Thurm, tandis que Yomba cesse ses exportations d'armes.</p>"
         }
       }
     ]

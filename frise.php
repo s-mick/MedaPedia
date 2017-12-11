@@ -20,7 +20,7 @@
     .tl-timeera-background{background-color:#cec597 !important;}.tl-timeera.tl-timeera-color2 /* Nomades */
     .tl-timeera-background{background-color:#a7a17b !important;}.tl-timeera.tl-timeera-color3 /* Tribus */
     .tl-timeera-background{background-color:#cec597 !important;}.tl-timeera.tl-timeera-color4 /* Royaumes */
-    .tl-timeera-background{background-color:#a7a17b !important;}.tl-timeera.tl-timeera-color4 /* Razhiga */
+    .tl-timeera-background{background-color:#a7a17b !important;}.tl-timeera.tl-timeera-color5 /* Razhiga */
 </style>
 </head>
 <body>
@@ -40,6 +40,7 @@ else
     $id = 'main';
 ?>
 <script type="text/javascript">
+    /* Access then load source JSON file online */
     function loadJSON(callback, src) {
         var xhr = new XMLHttpRequest();
         xhr.overrideMimeType("application/json");
@@ -52,11 +53,13 @@ else
         xhr.send(null);
     }
     
+    /* Load JSON file and create Timeline object with it */
     function setTimeline(data) {
         var timeline_json = JSON.parse(data);
         window.timeline = new TL.Timeline('timeline-embed', timeline_json, options);
     }
     
+    /* Online path of source JSON file */
     var srcpath = 'https://raw.githubusercontent.com/s-mick/MedaPedia/master/<?php echo $id; ?>.json';
     var options = {
         scale_factor: 1,
@@ -65,6 +68,7 @@ else
         marker_height_min: 60,
         optimal_tick_width: 150,
         language: "fr",
+        /* Directory path for extra parameters, especially language settings */
         script_path: "https://raw.githubusercontent.com/s-mick/MedaPedia/master"
     }
     
