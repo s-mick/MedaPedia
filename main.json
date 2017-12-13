@@ -2,7 +2,7 @@
     "title": {
       "text": {
         "headline": "Histoire humaine de Medainë<br/>De l'arrivée des Me'eda à nos jours",
-        "text": "<p>Près de dix-huit siècles se sont écoulés depuis la découverte de ces terres par les tribus nomades me'eda, ancêtres des Meda-vê et premier peuple humain à s'établir dans ces contrées. Cette frise chronologique retrace les événements marquants et les périodes majeures qui ont jalonné l'histoire des peuples humains vivant et ayant vécu à Medainë.</p><p><i>Code couleur des événements :</i></p><ul><li style='color:156523'>Culture</li><li style='color:90770f'>Économie</li><li style='color:980404'>Militaire</li><li style='color:244f9a'>Politique et diplomatie</li></ul>"
+        "text": "<p>Près de dix-huit siècles se sont écoulés depuis la découverte de ces terres par les tribus nomades me'eda, ancêtres des Meda-vê et premier peuple humain à s'établir dans ces contrées. Cette frise chronologique retrace les événements marquants et les périodes majeures qui ont jalonné l'histoire des peuples humains vivant et ayant vécu à Medainë.</p><p><i>Code couleur des événements :</i></p><ul><li style='color:156523'>Culture</li><li style='color:980404'>Militaire</li><li style='color:244f9a'>Politique et diplomatie</li></ul>"
       }
     },
     "eras": [
@@ -25,7 +25,7 @@
           "year": "-592"
         },
         "text": {
-          "headline": "Tribus me'eda sédentarisés"
+          "headline": "Tribus me'eda sédentarisées"
         }
       },
       {
@@ -83,7 +83,7 @@
           "year": "-1050"
         },
         "text": {
-          "headline": "<div style='color:#156523'>Sédentarisation du peuple Me'eda</div>",
+          "headline": "<div style='color:#156523'>Sédentarisation du peuple me'eda</div>",
           "text": "<p>Après avoir longé la chaîne des monts Ymia par l'Ouest, les Me'eda quittent le royaume de Silig, franchissent la passe de Savad et progressent vers l'Est. Découvrant enfin des terres hospitalières et vierges de toute présence humaine, ils s'approprient promptement cette contrée qui deviendra le pays de Medainë, abandonnent leur mode de vie nomade et fondent leurs premiers villages aux emplacements les plus accueillants.</p>"
         }
       },
@@ -95,7 +95,7 @@
           "year": "-800"
         },
         "text": {
-          "headline": "Expansion du territoire des Me'eda",
+          "headline": "<div style='color:#888888'>Expansion du territoire des Me'eda</div>",
           "text": "<p>Arrivés par la passe de Savad à l'Ouest, les Me'eda entreprennent de poursuivre à l'Est leur avancée dans ces terres inconnues des humains. Au fil de la dispersion de la population, les rencontres avec des Kala'em autochtones donnent lieu au tracé, tacite ou formel, des premières frontières du pays. Au Nord, la chaîne des Ymia forme une frontière naturelle et au-delà, le bois de Moen est peuplé d'animaux et divinités farouches. Au Sud-Est, le marais de Goro Zan, très inhospitalier, interdit toute expansion. À l'Est, les géants de la steppe de la Ma'av, par un puissant sortilège, imposent aux Me'eda de cesser d'avancer sur leurs terres.</p>"
         }
       },
@@ -107,7 +107,7 @@
           "year": "-660"
         },
         "text": {
-          "headline": "<div style='color:#90770f'>Exploration et aménagement du territoire<div>",
+          "headline": "<div style='color:#888888'>Exploration et aménagement du territoire</div>",
           "text": "<p>Les villes grandissent, la population croît rapidement et les Me'eda continuent à s'établir partout où ils le peuvent sur ces terres, dessinant peu à peu les contours du pays. Pour faciliter le transport et la communication, ils aménagent des routes de terres, ainsi que des voies fluviales et des canaux facilitant les échanges d'une ville à l'autre. Les Me'eda se mettent également à la recherche de gisements de minerai, tandis que la métallurgie se développe pour répondre aux nouveaux besoins apparus avec l'essor de l'agriculture et de l'artisanat.</p>"
         }
       },
@@ -140,11 +140,11 @@
           "year": "-570"
         },
         "end_date": {
-          "year": "-340"
+          "year": "-320"
         },
         "text": {
           "headline": "<div style='color:#980404'>Conflits territoriaux et guerres entre royaumes</div>",
-          "text": "<p>Du fait de l'absence totale de concertation et de négociation entre chefs de tribu lors de la fondation des royaumes, les nouvelles couronnes ne tardent pas à se disputer la souveraineté sur certaines terres. Le contrôle d'un canal, d'une route commerciale d'une voie fluviale ou encore de terres recelant des gisements de minerai constitue un enjeu stratégique de taille, au point que certaines rivalités entre royaumes dégénèrent en guerres meurtrières. Pendant plus de deux siècles, les conflits se succèdent et les territoires disputés passent d'un royaume à un autre. Au fil des invasions, conquêtes, annexions et négociations, le tracé des frontières est sans cesse redessiné, tandis que le cœur de chaque royaume s'établit et se stabilise autour des diverses capitales royales.</p><p>Sous l'impulsion des monarques, qui cherchent à unifier leurs sujets, des identités nationales se forment peu à peu au sein des différentes tribus. En dépit de leur caractère fratricide, les épisodes de guerre participent considérablement à raffermir ces sentiments nationaux naissants, sans pour autant parvenir à effacer l'identité des Me'eda en tant que peuple à part entière, profondément ancrée dans la culture et l'histoire partagées dans toutes les tribus.</p>"
+          "text": "<p>Du fait de l'absence totale de concertation et de négociation entre chefs de tribu lors de la fondation des royaumes, les nouvelles couronnes ne tardent pas à se disputer la souveraineté sur certaines terres. Les canaux, les routes commerciales, les voies fluviales et les gisements de minerai constituent autant d'enjeux stratégiques de taille, au point que certaines rivalités entre royaumes dégénèrent en guerres meurtrières. Pendant plus de deux siècles, les conflits se succèdent et les territoires disputés passent d'un royaume à un autre. Au fil des invasions, conquêtes, annexions et négociations, le tracé des frontières est sans cesse redessiné, tandis que le cœur de chaque royaume s'établit et se stabilise autour de sa capitale.</p><p>Sous l'impulsion des monarques, qui cherchent à unifier leurs sujets, des identités nationales se forment peu à peu au sein des différentes tribus. En dépit de leur caractère fratricide, les épisodes de guerre participent considérablement à raffermir ces sentiments nationaux naissant au sein de chaque royaume. Leur consolidation ne suffit toutefois pas à effacer l'identité des Me'eda en tant que peuple à part entière, profondément ancrée dans la culture et l'histoire partagées par toutes les tribus.</p>"
         }
       },
       {
@@ -156,7 +156,7 @@
         },
         "text": {
           "headline": "<div style='color:#980404'>Deuxième guerre savadique</div>",
-          "text": "<p>Les royaumes étrangers de Silig et Aleb assaillent le royaume de Kodosha avec le renfort de plusieurs tribus peuplant les montagnes de part et d'autre de la passe de Savad. Face à une force d'invasion de près de trente mille soldats, Kodosha est conquis en quelques mois et les envahisseurs placent sur le trône un monarque fantoche, institué comme vassal de la couronne de Silig. La famille royale légitime se réfugie à Taalses, tandis que les autres royaumes me'eda assistent à cette agression avec inquiétude, mais sans oser intervenir.</p><p>Trois ans plus tard, Taalses entre en guerre sur le motif d'un incident diplomatique et envoie une armée de six mille soldats à la reconquête de Kodosha, devenue plus vulnérable depuis le départ de l'essentiel de l'armée de l'occupant. La guerre fait rage trois ans durant sans qu'aucun belligérant ne parvienne à prendre le dessus, jusqu'à ce que d'autres royaumes de Medainë prennent part au conflit. En effet, ceux-ci souffrent du blocage croissant des voies de communication vers l'Ouest, et sont finalement persuadés de venir au secours de Kodosha par les actes sacrilèges commis par l'occupant. L'alliance des forces me'eda face à l'occupant est décisive pour l'issue du conflit : avec le soutien des autres royaumes, Kodosha est reconquis l'année suivante, et la dynastie royale légitime est réinstituée sur le trône. Devant le regain de solidarité entre les royaumes me'eda, Aleb et Silig préfèrent abandonner leurs ambitions conquérantes. Les vainqueurs leur imposent une paix coûteuse ainsi que le retrait permanent de toutes leurs forces armées sur une frange d'environ quarante kilomètres de large s'étendant sur toute la longueur de la frontière savadique.</p>"
+          "text": "<p>Les royaumes étrangers de Silig et Aleb assaillent le royaume de Kodosha avec le renfort de plusieurs tribus peuplant les montagnes de part et d'autre de la passe de Savad. Face à une force d'invasion de près de trente mille soldats, Kodosha est conquis en quelques mois et les envahisseurs placent sur le trône un monarque fantoche, institué comme vassal de la couronne de Silig. La famille royale légitime se réfugie à Taalses, tandis que les autres royaumes me'eda assistent à cette agression avec inquiétude, mais sans oser intervenir.</p><p>Trois ans plus tard, Taalses entre en guerre avec la nouvelle couronne de Kodosha sur le motif d'un incident diplomatique, et envoie une armée de six mille soldats à la reconquête de la région. Trois ans durant, la guerre fait rage sans qu'aucun belligérant ne parvienne à prendre le dessus, jusqu'à ce que d'autres royaumes de Medainë prennent à leur tour part au conflit. En effet, ceux-ci souffrent du blocage croissant des voies de communication vers l'Ouest, et sont finalement persuadés de venir au secours de Kodosha par les actes sacrilèges commis par l'occupant. L'alliance des forces me'eda face à l'occupant est décisive pour l'issue du conflit : avec le soutien des autres royaumes, Kodosha est reconquis l'année suivante, et la dynastie royale légitime est réinstituée sur le trône. Devant le regain de solidarité entre les royaumes me'eda, Aleb et Silig préfèrent abandonner leurs ambitions conquérantes. Les vainqueurs leur imposent une paix coûteuse ainsi que le retrait permanent de toutes leurs forces armées sur une frange d'environ quarante kilomètres de large s'étendant sur toute la longueur de la frontière savadique.</p>"
         }
       },
       {
@@ -165,7 +165,7 @@
         },
         "text":{
           "headline": "<div style='color:#244f9a'>Union des couronnes de Taalses et Kodosha</div>",
-          "text": "<p>Rapprochées par l'épreuve âpre de la deuxième guerre savadique, les familles royales de Taalses et Kodosha décident d'unir leurs royaumes sous une même couronne. Pour sceller cette alliance, les deux héritiers de ces royaumes, la princesse aînée de Taalses et le prince aîné de Kodosha, s'unissent par une sinmae et adoptent le neveu du prince, qui est aussi le premier petit-fils de la reine de Kodosha. L'enfant est destiné à devenir le premier monarque régnant officiellement sur les deux royaumes.</p><p>Par sa souveraineté totale sure les routes et voies fluviales menant à l'étranger vers l'Ouest, la double couronne contrôle d'une poigne de fer les échanges commerciaux qui en dépendent, et taxe sévèrement les marchandises qui transitent par ces routes. Pour justifier cette mesure commerciale agressive, le nouveau royaume affirme consacrer le revenu de ces taxes à la défense de la passe de Savad, pour assurer la protection de tous les Me'eda contre d'éventuelles invasions. Cependant, les autres royaumes ressentent cette mesure comme une véritable extorsion plutôt qu'une contribution à la sécurité du pays et de son peuple, et voient d'un mauvais œil les ambitions monopolistiques de la double couronne.</p>"
+          "text": "<p>Rapprochées par l'épreuve âpre de la deuxième guerre savadique, les familles royales de Taalses et Kodosha décident d'unir leurs royaumes sous une même couronne. Pour sceller cette alliance, les deux héritiers de ces royaumes, la princesse aînée de Taalses et le prince aîné de Kodosha, s'unissent par une sinmae et adoptent le neveu du prince, qui est aussi le premier petit-fils de la reine de Kodosha. L'enfant est destiné à devenir le premier monarque régnant officiellement sur les deux royaumes.</p><p>Par sa souveraineté totale sur les routes et voies fluviales menant à l'étranger par l'Ouest, la double couronne contrôle d'une poigne de fer les échanges commerciaux qui en dépendent, et taxe sévèrement les marchandises qui transitent par ces routes. Pour justifier cette mesure économique agressive, le nouveau royaume affirme consacrer le revenu de ces taxes à la défense de la passe de Savad, pour assurer la protection de tous les Me'eda contre d'éventuelles invasions. Cependant, les autres royaumes ressentent cette mesure comme une véritable extorsion plutôt qu'une contribution à la sécurité du pays et de son peuple, et voient d'un mauvais œil les ambitions monopolistiques de la double couronne.</p>"
         }
       },
       {
@@ -174,7 +174,7 @@
         },
         "text":{
           "headline": "<div style='color:#244f9a'>Chuzan et Porara forment l'Alliance du Nord</div>",
-          "text": "<p>Afin de défendre plus fermement leurs intérêts face à la double couronne de Taalses-Kodosha, les deux royaumes du nord du pays décident d'unir leurs forces. Chuzan et Porara constituent ainsi l'Alliance du Nord, une entente à la fois militaire et commerciale pour mieux résister aux restrictions imposées par le royaume nouvellement unifié à l'ouest. Désormais en mesure de faire davantage pression sur celui-ci, ils tentent également de contourner les péages qu'il impose, en développant de nouvelles voies commerciales traversant la chaîne des Ymia par les cols et vallées les plus praticables. Sur le plan économique, le résultat n'est pas des plus convaincants, mais les efforts entrepris par l'Alliance du Nord la rapproche diplomatiquement et commercialement des tribus des montagnes.</p>"
+          "text": "<p>Afin de défendre plus fermement leurs intérêts face à la double couronne de Taalses-Kodosha, les deux royaumes du nord du pays décident d'unir leurs forces. Chuzan et Porara constituent ainsi l'Alliance du Nord, une entente à la fois militaire et commerciale, pour mieux résister aux restrictions imposées par le royaume nouvellement unifié à l'ouest. Désormais en mesure de faire davantage pression sur celui-ci, ils tentent également de contourner les péages qu'il impose, en développant de nouvelles voies commerciales traversant la chaîne des Ymia par les cols et vallées les plus praticables. Sur le plan économique, le résultat n'est pas des plus convaincants, mais les efforts entrepris par l'Alliance du Nord la rapprochent diplomatiquement et commercialement des tribus des montagnes.</p>"
         }
       },
       {
@@ -182,8 +182,20 @@
           "year": "-264"
         },
         "text":{
-          "headline": "<div style='color:#244f9a'>Une seconde alliance est conclue par les royaumes du Sud, Yomba et Istuuk</div>",
-          "text": "<p>Dans le sillage de l'Alliance du Nord, Yomba et Istuuk concluent d'étroits accords commerciaux, soucieux de ne pas être dépassés par la concentration des pouvoirs économiques qui s'opère dans le pays. Dans le secret, les deux royaumes se prêtent également assistance militaire mutuelle, craignant que les rivalités économiques ne dégénèrent bientôt en un conflit armé de grande ampleur. Afin de préparer leurs défenses, Istuuk accélère l'extraction et l'exploitation des minerais métallifères situés au sud de la cité de Thurm, tandis que Yomba cesse ses exportations d'armes.</p>"
+          "headline": "<div style='color:#244f9a'>Les royaumes du Sud s'allient à leur tour</div>",
+          "text": "<p>Dans le sillage de la jeune Alliance du Nord, Yomba et Istuuk concluent d'étroits accords commerciaux, soucieux de ne pas être dépassés par la concentration des pouvoirs économiques qui s'opère dans le pays. Dans le secret, les deux royaumes se prêtent également assistance militaire mutuelle, craignant que les rivalités économiques ne dégénèrent bientôt en un conflit armé de grande ampleur. Afin de préparer leurs défenses, Istuuk accélère l'extraction et l'exploitation des minerais métallifères situés au sud de la cité de Thurm, tandis que Yomba cesse ses exportations d'armes vers l'Ouest.</p><p>La double couronne, qui n'est pas dupe, répond impitoyablement par une hausse des taxes imposées à ses voisins.</p>"
+        }
+      },
+      {
+        "start_date":{
+          "year": "-241"
+        },
+        "end_date": {
+          "year": "-207"
+        },
+        "text":{
+          "headline": "<div style='color:#244f9a'>Montée des tensions dans l'Ouest du pays</div>",
+          "text": "<p>Au Nord comme au Sud, les accords conclus et les alliances ne suffisent pas à contre-balancer l'énorme pouvoir de pression économique de la double couronne. Peu à peu, l'agacement se mue en vive animosité chez ses voisins, qui fourbissent leurs armes et n'attendent qu'une maladresse de leur rival pour l'agresser militairement.</p><p>Malgré les menaces et provocations à peine déguisées, Taalses-Kodosha tient fermement ses positions et prive ses voisins du moindre <i>casus belli<i> en désamorçant habilement les incidents impliquant leurs marchands et dignitaires.</p><p>Dès son arrivée sur le trône en -223, le jeune et impétueux roi de Yomba ordonne de cesser toute relation diplomatique avec la double couronne, sans même consulter son allié.</p>"
         }
       }
     ]
