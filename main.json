@@ -191,12 +191,22 @@
           "year": "-241"
         },
         "end_date": {
-          "year": "-207"
+          "year": "-217"
         },
         "text":{
           "headline": "<div style='color:#244f9a'>Montée des tensions dans l'Ouest du pays</div>",
-          "text": "<p>Au Nord comme au Sud, les accords conclus et les alliances ne suffisent pas à contre-balancer l'énorme pouvoir de pression économique de la double couronne. Peu à peu, l'agacement se mue en vive animosité chez ses voisins, qui fourbissent leurs armes et n'attendent qu'une maladresse de leur rival pour l'agresser militairement.</p><p>Malgré les menaces et provocations à peine déguisées, Taalses-Kodosha tient fermement ses positions et prive ses voisins du moindre <i>casus belli<i> en désamorçant habilement les incidents impliquant leurs marchands et dignitaires.</p><p>Dès son arrivée sur le trône en -223, le jeune et impétueux roi de Yomba ordonne de cesser toute relation diplomatique avec la double couronne, sans même consulter son allié.</p>"
+          "text": "<p>Au Nord comme au Sud, les accords conclus et les alliances ne suffisent pas à contre-balancer l'énorme pouvoir de pression économique de Taalses-Kodosha. Peu à peu, l'agacement se mue en vive animosité chez ses voisins, qui fourbissent leurs armes et n'attendent qu'une maladresse de leur rival pour l'assaillir. Les royaumes alliés ne s'embarrassent plus de manigances visant à camoufler leurs préparatifs militaires, qui se poursuivent désormais au grand jour pour mieux intimider la double couronne</p><p>Malgré les menaces et provocations à peine déguisées, celle-ci tient fermement ses positions et prive ses voisins du moindre <i>casus belli<i> en désamorçant habilement les incidents avant qu'ils ne deviennent des prétextes à une entrée en guerre."
+        }
+      },
+      {
+        "start_date":{
+          "year": "-217"
+        },
+        "text":{
+          "headline": "<div style='color:#244f9a'>Taalses-Kodosha isolée du reste de Medainë.</div>",
+          "text": "</p><p>Dès son arrivée sur le trône en -223, la jeune et impétueuse , reine de Yomba, ordonne de cesser toute relation diplomatique avec la double couronne, excédé par l'orgueil dont elle fait preuve. sans même consulter son allié.</p>"
         }
       }
     ]
 }
+""
