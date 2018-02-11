@@ -71,7 +71,7 @@
       "year": "-1100"
       },
       "text": {
-        "headline": "Errance des tribus me'eda à travers le continent",
+        "headline": "<div style='color:#666666'>Errance des tribus me'eda à travers le continent</div>",
         "text": "<p>Dépourvus de terres, les Me'eda adoptent un mode de vie nomade et parcourent le continent à la recherche de contrées où s'établir. Ils sont à plusieurs reprises chassés de leurs habitats temporaires par des peuples humains ou Kala'em s'opposant à leur présence durable sur leurs terres.</p>"
       }
     },
@@ -95,7 +95,7 @@
         "year": "-800"
       },
       "text": {
-        "headline": "<div style='color:#888888'>Expansion du territoire des Me'eda</div>",
+        "headline": "<div style='color:#666666'>Expansion du territoire des Me'eda</div>",
         "text": "<p>Arrivés par la passe de Savad à l'Ouest, les Me'eda entreprennent de poursuivre à l'Est leur avancée dans ces terres inconnues des humains. Au fil de la dispersion de la population, les rencontres avec des Kala'em autochtones donnent lieu au tracé, tacite ou formel, des premières frontières du pays. Au Nord, la chaîne des Ymia forme une frontière naturelle et au-delà, le bois de Moen est peuplé d'animaux et divinités farouches. Au Sud-Est, le marais de Goro Zan, très inhospitalier, interdit toute expansion. À l'Est, les géants de la steppe de la Ma'av, par un puissant sortilège, imposent aux Me'eda de cesser d'avancer sur leurs terres.</p>"
       }
     },
@@ -107,7 +107,7 @@
         "year": "-660"
       },
       "text": {
-        "headline": "<div style='color:#888888'>Exploration et aménagement du territoire</div>",
+        "headline": "<div style='color:#666666'>Exploration et aménagement du territoire</div>",
         "text": "<p>Les villes grandissent, la population croît rapidement et les Me'eda continuent à s'établir partout où ils le peuvent sur ces terres, dessinant peu à peu les contours du pays. Pour faciliter le transport et la communication, ils aménagent des routes de terres, ainsi que des voies fluviales et des canaux facilitant les échanges d'une ville à l'autre. Les Me'eda se mettent également à la recherche de gisements de minerai, tandis que la métallurgie se développe pour répondre aux nouveaux besoins apparus avec l'essor de l'agriculture et de l'artisanat.</p>"
       }
     },
@@ -131,8 +131,8 @@
         "year": "-568"
       },
       "text": {
-        "headline": "<div style='color:#244f9a'>Morcellement du pays en neuf royaumes</div>",
-        "text": "<p>Désormais largement dispersées dans le pays, les tribus me'eda s'émancipent peu à peu les unes des autres et délimitent leurs propres territoires. Plusieurs chefs de tribu, désireux d'asseoir plus fermement leur pouvoir, fondent des royaumes indépendants et prennent la tête des dynasties au pouvoir. Dans les décennies qui suivent, les autres chefs de tribu finissent par imiter ces nouveaux rois et au total, neuf couronnes se créent dans le pays, recouvrant l'intégralité du territoire.</p>"
+        "headline": "<div style='color:#244f9a'>Morcellement du pays en dix royaumes</div>",
+        "text": "<p>Désormais largement dispersées dans le pays, les tribus me'eda s'émancipent peu à peu les unes des autres et délimitent leurs propres territoires. Plusieurs chefs de tribu, désireux d'asseoir plus fermement leur pouvoir, fondent des royaumes indépendants et prennent la tête des dynasties au pouvoir. Dans les décennies qui suivent, les autres chefs de tribu finissent par imiter ces nouveaux rois et au total, dix couronnes se créent dans le pays, recouvrant l'intégralité du territoire :</p><p><ul style='column-count:2'><li>Jelain</li><li>Porara</li><li>Chuzan</li><li>Taalses</li><li>Kodosha</li><li>Yomba</li><li>Laghien</li><li>Istuuk</li><li>Damoenë</li>Gohuenë<li></li></ul></p>"
       }
     },
     {
@@ -140,11 +140,29 @@
         "year": "-570"
       },
       "end_date": {
-        "year": "-320"
+        "year": "-380"
       },
       "text": {
         "headline": "<div style='color:#980404'>Conflits territoriaux et guerres entre royaumes</div>",
         "text": "<p>Du fait de l'absence totale de concertation et de négociation entre chefs de tribu lors de la fondation des royaumes, les nouvelles couronnes ne tardent pas à se disputer la souveraineté sur certaines terres. Les canaux, les routes commerciales, les voies fluviales et les gisements de minerai constituent autant d'enjeux stratégiques de taille, au point que certaines rivalités entre royaumes dégénèrent en guerres meurtrières. Pendant plus de deux siècles, les conflits se succèdent et les territoires disputés passent d'un royaume à un autre. Au fil des invasions, conquêtes, annexions et négociations, le tracé des frontières est sans cesse redessiné, tandis que le cœur de chaque royaume s'établit et se stabilise autour de sa capitale.</p><p>Sous l'impulsion des monarques, qui cherchent à unifier leurs sujets, des identités nationales se forment peu à peu au sein des différentes tribus. En dépit de leur caractère fratricide, les épisodes de guerre participent considérablement à raffermir ces sentiments nationaux naissant au sein de chaque royaume. Leur consolidation ne suffit toutefois pas à effacer l'identité des Me'eda en tant que peuple à part entière, profondément ancrée dans la culture et l'histoire partagées par toutes les tribus.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-397"
+      },
+      "text": {
+        "headline": "<div style='color:#244f9a'>Disparition du royaume de Laghien</div>",
+        "text": "<p>Après une guerre impitoyable de quelques mois seulement, le royaume de Laghien, situé à l'ouest du lac Dezuri, s'effondre sous les assauts des armées de Yomba. Après avoir conclu un pacte de non-intervention avec Taalses, l'assaillant profite de la vulnérabilité de cette modeste région pour l'assaillir. La reine, dont les appels à l'aide sont systématiquement ignorés, est officiellement destituée lorsque la capitale Thurm tombe aux mains des conquérants. La dynastie royale a vite fait d'être intégralement éliminée par les assassins à la solde du roi Yomeong, qui veut voir disparaître tous les potentiels prétendants à la couronne déchue.</p><p>Dans les semaines qui suivent la chute de Thurm, les monarques de Yomba et Taalses s'y réunissent pour négocier le partage du territoire de Laghien. Il est décidé que Yomba en conserve la plus grande partie au sud, tandis que Kodosha obtient une large région prolongeant ses terres vers l'est jusqu'au lac.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-383"
+      },
+      "text": {
+        "headline": "<div style='color:#244f9a'>La reine Ajund appelle à la paix entre Me'eda</div>",
+        "text": "<p>La reine Ajund, jeune monarque de dix-sept ans, vient tout juste d'accéder au trône du puissant royaume de Jelain lorsqu'elle décide d'intervenir de façon décisive dans la diplomatie entre les factions de Medainë. Elle invoque une vieille tradition des tribus nomades pour inviter tous les seigneurs du pays à se réunir en conseil extraordinaire, afin d'y discuter des conséquences des guerres qui font rage dans le pays.</p><p>Malgré quelques réticences, tous les invités acceptent de prendre part à ce rassemblement pacifique, qui a lieu sur une barge au milieu du lac Dezuri. L'audacieuse reine en appelle alors la solidarité ancestrale qui unit les tribus me'eda et enjoint aux monarques de cesser leurs guerres fratricides. Son caractère bien trempé</p>"
       }
     },
     {
@@ -156,7 +174,7 @@
       },
       "text": {
         "headline": "<div style='color:#980404'>Deuxième guerre savadique</div>",
-        "text": "<p>Les royaumes étrangers de Silig et Aleb assaillent le royaume de Kodosha avec le renfort de plusieurs tribus peuplant les montagnes de part et d'autre de la passe de Savad. Face à une force d'invasion de près de trente mille soldats, Kodosha est conquis en quelques mois et les envahisseurs placent sur le trône un monarque fantoche, institué comme vassal de la couronne de Silig. La famille royale légitime se réfugie à Taalses, tandis que les autres royaumes me'eda assistent à cette agression avec inquiétude, mais sans oser intervenir.</p><p>Trois ans plus tard, Taalses entre en guerre avec la nouvelle couronne de Kodosha sur le motif d'un incident diplomatique, et envoie une armée de six mille soldats à la reconquête de la région. Trois ans durant, la guerre fait rage sans qu'aucun belligérant ne parvienne à prendre le dessus, jusqu'à ce que d'autres royaumes de Medainë prennent à leur tour part au conflit. En effet, ceux-ci souffrent du blocage croissant des voies de communication vers l'Ouest, et sont finalement persuadés de venir au secours de Kodosha par les actes sacrilèges commis par l'occupant. L'alliance des forces me'eda face à l'occupant est décisive pour l'issue du conflit : avec le soutien des autres royaumes, Kodosha est reconquis l'année suivante, et la dynastie royale légitime est réinstituée sur le trône. Devant le regain de solidarité entre les royaumes me'eda, Aleb et Silig préfèrent abandonner leurs ambitions conquérantes. Les vainqueurs leur imposent une paix coûteuse ainsi que le retrait permanent de toutes leurs forces armées sur une frange d'environ quarante kilomètres de large s'étendant sur toute la longueur de la frontière savadique.</p>"
+        "text": "<p>Les royaumes étrangers de Silig et Aleb assaillent Kodosha avec le renfort de plusieurs tribus peuplant les montagnes de part et d'autre de la passe de Savad. Face à une force d'invasion de près de trente mille soldats, Kodosha est conquis en quelques mois et les envahisseurs placent sur le trône un monarque fantoche, institué comme vassal de la couronne de Silig. La famille royale légitime se réfugie à Taalses, tandis que les autres royaumes me'eda assistent à cette agression avec inquiétude, mais sans oser intervenir.</p><p>Trois ans plus tard, Taalses entre en guerre avec la nouvelle couronne de Kodosha sur le motif d'un incident diplomatique, et envoie une armée de six mille soldats à la reconquête de la région. Trois ans durant, la guerre fait rage sans qu'aucun belligérant ne parvienne à prendre le dessus, jusqu'à ce que d'autres royaumes de Medainë prennent à leur tour part au conflit. En effet, ceux-ci souffrent du blocage croissant des voies de communication vers l'Ouest, et sont finalement persuadés de venir au secours de Kodosha par les actes sacrilèges commis par l'occupant. L'alliance des forces me'eda face à l'occupant est décisive pour l'issue du conflit : avec le soutien des autres royaumes, Kodosha est reconquis l'année suivante, et la dynastie royale légitime est réinstituée sur le trône. Devant le regain de solidarité entre les royaumes me'eda, Aleb et Silig préfèrent abandonner leurs ambitions conquérantes. Les vainqueurs leur imposent une paix coûteuse ainsi que le retrait permanent de toutes leurs forces armées sur une frange d'environ quarante kilomètres de large s'étendant sur toute la longueur de la frontière savadique.</p>"
       }
     },
     {
@@ -195,7 +213,7 @@
       },
       "text":{
         "headline": "<div style='color:#244f9a'>Montée des tensions dans l'Ouest du pays</div>",
-        "text": "<p>Au Nord comme au Sud, les accords conclus et les alliances ne suffisent pas à contre-balancer l'énorme pouvoir de pression économique de Taalses-Kodosha. Peu à peu, l'agacement se mue en vive animosité chez ses voisins, qui fourbissent leurs armes et n'attendent qu'une maladresse de leur rival pour l'assaillir. Les royaumes alliés ne s'embarrassent plus de manigances visant à camoufler leurs préparatifs militaires, qui se poursuivent désormais au grand jour pour mieux intimider la double couronne</p><p>Malgré les menaces et provocations à peine déguisées, celle-ci tient fermement ses positions et allège ses défenses le long de la passe de Savad pour renforcer ses frontières à l'Est. Sur le plan diplomatique, elle parvient à priver ses voisins du moindre <i>casus belli<i> en désamorçant habilement les incidents avant qu'ils ne deviennent des prétextes à une entrée en guerre.</p>"
+        "text": "<p>Au Nord comme au Sud, les accords conclus et les alliances ne suffisent pas à contre-balancer l'énorme pouvoir de pression économique de Taalses-Kodosha. Peu à peu, l'agacement se mue en vive animosité chez ses voisins, qui fourbissent leurs armes et n'attendent qu'une maladresse de leur rival pour l'assaillir. Les royaumes alliés ne s'embarrassent plus de manigances visant à camoufler leurs préparatifs militaires, qui se poursuivent désormais au grand jour pour mieux intimider la double couronne</p><p>Malgré les menaces et provocations à peine déguisées, celle-ci tient fermement ses positions et allège ses défenses le long de la passe de Savad pour renforcer ses frontières à l'Est. Sur le plan diplomatique, elle parvient à priver ses voisins du moindre <i>casus belli</i> en désamorçant habilement les incidents avant qu'ils ne deviennent des prétextes à une entrée en guerre.</p>"
       }
     },
     {
@@ -203,8 +221,8 @@
         "year": "-217"
       },
       "text":{
-        "headline": "<div style='color:#244f9a'>Les deux alliances isolent Taalses-Kodosha du reste de Medainë.</div>",
-        "text": "<p>Dès son arrivée sur le trône en -217, la jeune et impétueuse Nooar II, reine de Yomba, ordonne de cesser toute relation diplomatique et commerciale avec la double couronne, excédée par l'orgueil dont elle fait preuve. À Istuuk, son allié le roi Vanh lui reproche d'avoir agi sans le consulter, sans pour autant se priver de lui emboîter le pas, en décrétant un blocus commercial absolu sur Taalses-Kodosha.</p><p>L'Alliance du Nord</p>"
+        "headline": "<div style='color:#244f9a'>Taalses-Kodosha est isolée du reste de Medainë.</div>",
+        "text": "<p>Dès son arrivée sur le trône en -217, la jeune et impétueuse Nooar II, reine de Yomba, ordonne de cesser toute relation diplomatique et commerciale avec la double couronne, excédée par l'orgueil dont cette dernière fait preuve. À Istuuk, son allié le roi Vanh lui reproche d'avoir agi sans le consulter, sans pour autant se priver de lui emboîter le pas, en décrétant un blocus commercial absolu sur Taalses-Kodosha.</p><p>L'Alliance du Nord</p>"
       }
     }
   ]

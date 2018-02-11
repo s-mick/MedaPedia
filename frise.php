@@ -8,19 +8,19 @@
     .tl-timeaxis-background{height:64px !important;}
     .tl-timeaxis{height:64px !important;}
     .tl-timeera{height:65px !important;}
-    
+
     /* Bigger era labels and headline dates */
     .tl-timeera-text h2.tl-headline{line-height: 15px !important; font-size: 12px !important;}
     h3.tl-headline-date{font-size: 20px !important;}
-    
-    
+
+
     /* Custom color codes for eras */
-    .tl-timeera-background{background-color:#cec597 !important;}.tl-timeera.tl-timeera-color0 /* Maaduga */
+    .tl-timeera-background{background-color:#b4ac7a !important;}.tl-timeera.tl-timeera-color0 /* Maaduga */
     .tl-timeera-background{background-color:#999999 !important;}.tl-timeera.tl-timeera-color1 /* ?? */
-    .tl-timeera-background{background-color:#cec597 !important;}.tl-timeera.tl-timeera-color2 /* Nomades */
-    .tl-timeera-background{background-color:#a7a17b !important;}.tl-timeera.tl-timeera-color3 /* Tribus */
-    .tl-timeera-background{background-color:#cec597 !important;}.tl-timeera.tl-timeera-color4 /* Royaumes */
-    .tl-timeera-background{background-color:#a7a17b !important;}.tl-timeera.tl-timeera-color5 /* Razhiga */
+    .tl-timeera-background{background-color:#b4ac7a !important;}.tl-timeera.tl-timeera-color2 /* Nomades */
+    .tl-timeera-background{background-color:#99855a !important;}.tl-timeera.tl-timeera-color3 /* Tribus */
+    .tl-timeera-background{background-color:#b4ac7a !important;}.tl-timeera.tl-timeera-color4 /* Royaumes */
+    .tl-timeera-background{background-color:#99855a !important;}.tl-timeera.tl-timeera-color5 /* Razhiga */
 </style>
 </head>
 <body>
@@ -51,14 +51,14 @@ else
             }
         };
         xhr.send(null);
-    }
-    
+    };
+
     /* Load JSON file and create Timeline object with it */
     function setTimeline(data) {
         var timeline_json = JSON.parse(data);
         window.timeline = new TL.Timeline('timeline-embed', timeline_json, options);
-    }
-    
+    };
+
     /* Online path of source JSON file */
     var srcpath = 'https://raw.githubusercontent.com/s-mick/MedaPedia/master/<?php echo $id; ?>.json';
     var options = {
@@ -70,8 +70,8 @@ else
         language: "fr",
         /* Directory path for extra parameters, especially language settings */
         script_path: "https://raw.githubusercontent.com/s-mick/MedaPedia/master"
-    }
-    
+    };
+
     loadJSON(setTimeline, srcpath);
 </script>
 </body>
