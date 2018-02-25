@@ -132,7 +132,7 @@
       },
       "text": {
         "headline": "<div style='color:#244f9a'>Morcellement du pays en dix royaumes</div>",
-        "text": "<p>Désormais largement dispersées dans le pays, les tribus me'eda s'émancipent peu à peu les unes des autres et délimitent leurs propres territoires. Plusieurs chefs de tribu, désireux d'asseoir plus fermement leur pouvoir, fondent des royaumes indépendants et prennent la tête des dynasties au pouvoir. Dans les décennies qui suivent, les autres chefs de tribu finissent par imiter ces nouveaux rois et au total, dix couronnes se créent dans le pays, recouvrant l'intégralité du territoire :</p><p><ul style='column-count:2'><li>Jelain</li><li>Porara</li><li>Chuzan</li><li>Taalses</li><li>Kodosha</li><li>Yomba</li><li>Laghien</li><li>Istuuk</li><li>Damoenë</li>Gohuenë<li></li></ul></p>"
+        "text": "<p>Désormais largement dispersées dans le pays, les tribus me'eda s'émancipent peu à peu les unes des autres et délimitent leurs propres territoires. Plusieurs chefs de tribu, désireux d'asseoir plus fermement leur pouvoir, fondent des royaumes indépendants et prennent la tête des dynasties au pouvoir. Dans les décennies qui suivent, les autres chefs de tribu finissent par imiter ces nouveaux rois et au total, dix couronnes se créent dans le pays, recouvrant l'intégralité du territoire :</p><p><ul style='columns:2'><li>Jelain</li><li>Porara</li><li>Chuzan</li><li>Taalses</li><li>Kodosha</li><li>Yomba</li><li>Laghien</li><li>Istuuk</li><li>Damoenë</li>Gohuenë<li></li></ul></p>"
       }
     },
     {
@@ -140,7 +140,7 @@
         "year": "-570"
       },
       "end_date": {
-        "year": "-380"
+        "year": "-360"
       },
       "text": {
         "headline": "<div style='color:#980404'>Conflits territoriaux et guerres entre royaumes</div>",
@@ -158,11 +158,14 @@
     },
     {
       "start_date": {
-        "year": "-383"
+        "year": "-381"
+      },
+      "end_date": {
+        "year": "-374"
       },
       "text": {
-        "headline": "<div style='color:#244f9a'>La reine Ajund appelle à la paix entre Me'eda</div>",
-        "text": "<p>La reine Ajund, jeune monarque de dix-sept ans, vient tout juste d'accéder au trône du puissant royaume de Jelain lorsqu'elle décide d'intervenir de façon décisive dans la diplomatie entre les factions de Medainë. Elle invoque une vieille tradition des tribus nomades pour inviter tous les seigneurs du pays à se réunir en conseil extraordinaire, afin d'y discuter des conséquences des guerres qui font rage dans le pays.</p><p>Malgré quelques réticences, tous les invités acceptent de prendre part à ce rassemblement pacifique, qui a lieu sur une barge au milieu du lac Dezuri. L'audacieuse reine en appelle alors la solidarité ancestrale qui unit les tribus me'eda et enjoint aux monarques de cesser leurs guerres fratricides. Son caractère bien trempé</p>"
+        "headline": "<div style='color:#244f9a'>La reine Ajund appelle à la paix entre les tribus Me'eda</div>",
+        "text": "<p>La reine Ajund, jeune monarque de dix-sept ans, vient tout juste d'accéder au trône du puissant royaume de Jelain lorsqu'elle décide d'intervenir de façon décisive dans la diplomatie entre les factions de Medainë. Elle invoque une vieille tradition des tribus nomades pour inviter tous les seigneurs du pays à se réunir pacifiquement en conseil extraordinaire. Malgré des réticences, tous les invités prennent part à ce rassemblement sur une barge au milieu du lac Dezuri. L'audacieuse reine en appelle alors à la solidarité ancestrale qui unit les tribus me'eda, et enjoint aux monarques de cesser leurs guerres fratricides. Son coup de poing sur la table met les rois et reines devant le fait accompli : le peuple innocent est la première victime des guerres que les seigneurs se déclarent par orgueil et ambition. Elle rappelle les épreuves auxquelles ont dû faire face leurs ancêtres lors de la guerre savadique pour démontrer la vanité de leurs actes et décisions.</p><p>Bien qu'aucun accord de paix ne soit conclu lors du conseil, les arguments d'Ajund font leur chemin dans les cours royales et auprès des dignitaires. Son caractère bien trempé lui vaut quelques critiques mais ses efforts continuels en faveur de la paix forcent le respect. Toutefois, au terme de presque huit ans de patientes négociations, l'infatigable reine meurt en couches avant que la paix ne soit complètement rétablie à Medainë.</p>"
       }
     },
     {
