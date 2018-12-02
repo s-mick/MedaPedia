@@ -1,0 +1,91 @@
+{
+    "title": {
+      "text": {
+        "headline": "Guerre de la nouvelle lune",
+        "text": "<p>Au centre d'importants enjeux économiques à Medainë, la guerre de la nouvelle lune est le point culminant de décennies de dégradation des relations diplomatiques à Medainë. Fruit de la confrontation entre deux monarques des plus entêtés, elle éclate en -201 et ne se terminera qu'à la suite de l'assassinat du seigneur de Taalses-Kodosha par ses propres généraux, au terme de onze ans d'un conflit aussi âpre que sanglant.</p>"
+      }
+    },
+    "events": [
+      {
+        "start_date": {
+          "year": "-201"
+        },
+        "text": {
+          "headline": "Invasion surprise de Chuzan",
+          "text": "<p>Les alliances du Nord et du Sud menacent la double couronne d'une invasion militaire concertée si elle n'abaisse pas les taxes, péages et tarifs douaniers imposée aux marchands me'eda. Mais son seigneur Yomgeong est inflexible et compte bien faire usage de ses troupes. Tandis que ses diplomates font traîner les négociations au Sud, plusieurs de ses divisions se déploient discrètement le long de la frontière Nord, avec l'ordre de passer à l'assaut à la nouvelle lune du cinquième mois. La veille de la nuit fatidique, les dignitaires se retirent des négociations puis, à la faveur de la nuit, les troupes de la double couronne avancent au cœur de Chuzan par le Sud.</p><p>Chez les seigneurs de Medainë, cet acte est unanimement considéré comme une infamie, mais pour Yomgeong, seul compte l'avantage stratégique qu'il lui confère. Dans les mois qui suivent, ses armées dépassent complètement les forces de Chuzan, qui cèdent du terrain et des places fortes jusqu'à être acculées dans leur capitale. Sur le front Sud, très étiré, les troupes de Yomba peinent à percer les lignes de défense que leur oppose la double couronne, appuyée par des ouvrages fortifiés d'une impressionnante ténacité.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-200"
+        },
+        "text": {
+          "headline": "Contre-attaque de Porara",
+          "text": "<p>Durant la première année du conflit, les forces de Chuzan peinent à se réorganiser et sont inexorablement repoussées vers le Nord du domaine et autour de sa capitale. Pris au dépourvu, son allié Porara doit lever ses troupes à la hâte et tarde à riposter. Lorsque la contre-attaque est enfin lancée, c'est un ost de plusieurs milliers d'hommes qui vient au secours des dernières poches de résistance disséminées dans Chuzan.</p><p>Préférant éviter une bataille frontale avec ces renforts, Yomgeong ordonne à ses troupes d'invasion de se retirer, laissant derrière elles villages en ruines et cités pillées. L'Alliance du Nord reprend ainsi le contrôle du domaine, mais n'est pas en mesure de soutenir l'avancée de ses armées jusqu'aux lignes de défense de la double couronne.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-199"
+        },
+        "text": {
+          "headline": "Percée par le lac Dezuri",
+          "text": "<p>Sur le front Sud, les troupes de Taalses-Kodosha tiennent bon à l'abri de leurs fortifications et délogent systématiquement leurs assiégeants, mais essuient tout de même des pertes notables au fil des escarmouches. Constatant l'inefficacité de cette guerre d'usure, l'état-major de Yomba élabore un plan d'assaut inédit : réquisitionner les embarcations fluviales desservant Thurm et Arvino et contourner les défenses terrestres de l'ennemi en passant par le lac Dezuri. La manœuvre, exécutée avec une remarquable discrétion, prend de cours Yomgeong et ses généraux et permet enfin aux domaines alliés de s'emparer de plusieurs places fortes à l'Est de Taalses. Le relief montagneux au Nord-Ouest de Thurm limite leur percée à un court segment du front Sud, mais protège également la jonction de leurs forces avec celles de l'Alliance du Nord. Depuis cette tête de pont, les quatre domaines peuvent alors déployer leurs troupes bien plus efficacement et sérieusement menacer la double couronne.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-197"
+        },
+        "end_date": {
+          "year": "-198"
+        },
+        "text": {
+          "headline": "Stabilisation des fronts",
+          "text": "<p>En dépit d'une situation stratégique plus favorable, les quatre domaines alliés voient leurs opportunités de revanche retardées par des conditions climatiques particulièrement défavorables. Deux années de suite, les récoltes sont déteriorées par les hivers rigoureux et les étés gris, à tel point que la famine menace Medainë. De part et d'autre du front, le cruel manque de provisions interdit toute opération d'envergure, et les belligérants n'ont d'autre choix que de camper sur leurs positions en attendant des jours meilleurs.</p><p>Cependant, bien que les troupes délaissent les champs de bataille, la guerre se poursuit sur le terrain du renseignement. Cette période du conflit voit se développer des réseaux d'espionnage et d'infiltration au service des seigneurs me'eda, plus que jamais conscients de l'importance critique de l'effet de surprise.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-198"
+        },
+        "end_date": {
+          "year": "-195"
+        },
+        "text": {
+          "headline": "Siège de Thurm",
+          "text": "<p></p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-194"
+        },
+        "end_date": {
+          "year": "-191"
+        },
+        "text": {
+          "headline": "Guerre d'usure",
+          "text": "<p></p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-190"
+        },
+        "text": {
+          "headline": "Nouvelle campagne vers Porara",
+          "text": "<p></p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "-189"
+        },
+        "text": {
+          "headline": "Assassinat de Yomgeong et armistice",
+          "text": "<p></p>"
+        }
+      }
+    ]
+}

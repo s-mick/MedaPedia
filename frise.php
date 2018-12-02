@@ -19,7 +19,7 @@
     .tl-timeera-background{background-color:#999999 !important;}.tl-timeera.tl-timeera-color1 /* ?? */
     .tl-timeera-background{background-color:#b4ac7a !important;}.tl-timeera.tl-timeera-color2 /* Nomades */
     .tl-timeera-background{background-color:#99855a !important;}.tl-timeera.tl-timeera-color3 /* Tribus */
-    .tl-timeera-background{background-color:#b4ac7a !important;}.tl-timeera.tl-timeera-color4 /* Royaumes */
+    .tl-timeera-background{background-color:#b4ac7a !important;}.tl-timeera.tl-timeera-color4 /* Domaines */
     .tl-timeera-background{background-color:#99855a !important;}.tl-timeera.tl-timeera-color5 /* Razhiga */
 </style>
 </head>

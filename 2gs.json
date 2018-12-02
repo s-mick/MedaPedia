@@ -1,0 +1,61 @@
+{
+  "title": {
+    "text": {
+      "headline": "Seconde guerre savadique",
+      "text": "<p></p>"
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "-328"
+      },
+      "text": {
+        "headline": "Silig et Aleb envahissent Kodosha",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-329"
+      },
+      "end_date": {
+        "year": "-327"
+      },
+      "text": {
+        "headline": "Destitution du seigneur légitime et occupation",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-326"
+      },
+      "end_date": {
+        "year": "-324"
+      },
+      "text": {
+        "headline": "Taalses combat en solitaire",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-323"
+      },
+      "text": {
+        "headline": "Le reste de Medainë entre en guerre",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-322"
+      },
+      "text": {
+        "headline": "Reddition des envahisseurs",
+        "text": "<p></p>"
+      }
+    }
+  ]
+}
