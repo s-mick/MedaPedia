@@ -2,7 +2,7 @@
     "title": {
       "text": {
         "headline": "Guerre de la nouvelle lune",
-        "text": "<p>Au centre d'importants enjeux économiques à Medainë, la guerre de la nouvelle lune est le point culminant de décennies de dégradation des relations diplomatiques à Medainë. Fruit de la confrontation entre deux monarques des plus entêtés, elle éclate en -201 et ne se terminera qu'à la suite de l'assassinat du seigneur de Taalses-Kodosha par ses propres généraux, au terme de onze ans d'un conflit aussi âpre que sanglant.</p>"
+        "text": "<p>Fruit de la confrontation entre deux monarques des plus entêtés, la guerre de la nouvelle lune est le point culminant de décennies de dégradation des relations diplomatiques à Medainë. Catalysée par d'importantes luttes économiques à Medainë, elle voit très vite ses enjeux escalader en une guerre de conquête. Éclatant en -201, la guerre ne prendra fin que par l'assassinat du seigneur de Taalses-Kodosha par ses propres généraux, au terme de onze ans d'un conflit aussi âpre que sanglant.</p>"
       }
     },
     "events": [
@@ -30,7 +30,7 @@
         },
         "text": {
           "headline": "Percée par le lac Dezuri",
-          "text": "<p>Sur le front Sud, les troupes de Taalses-Kodosha tiennent bon à l'abri de leurs fortifications et délogent systématiquement leurs assiégeants, mais essuient tout de même des pertes notables au fil des escarmouches. Constatant l'inefficacité de cette guerre d'usure, l'état-major de Yomba élabore un plan d'assaut inédit : réquisitionner les embarcations fluviales desservant Thurm et Arvino et contourner les défenses terrestres de l'ennemi en passant par le lac Dezuri. La manœuvre, exécutée avec une remarquable discrétion, prend de cours Yomgeong et ses généraux et permet enfin aux domaines alliés de s'emparer de plusieurs places fortes à l'Est de Taalses. Le relief montagneux au Nord-Ouest de Thurm limite leur percée à un court segment du front Sud, mais protège également la jonction de leurs forces avec celles de l'Alliance du Nord. Depuis cette tête de pont, les quatre domaines peuvent alors déployer leurs troupes bien plus efficacement et sérieusement menacer la double couronne.</p>"
+          "text": "<p>Sur le front Sud, les troupes de Taalses-Kodosha tiennent bon à l'abri de leurs fortifications et délogent systématiquement leurs assiégeants, mais essuient tout de même des pertes notables au fil des escarmouches. Agacée par la médiocre efficacité de cette stratégie, Nooar II  présente à l'état-major de Yomba un plan d'assaut inédit : réquisitionner les embarcations fluviales desservant Thurm et Arvino et contourner les défenses terrestres de l'ennemi en passant par le lac Dezuri. L'audacieuse manœuvre, exécutée avec une remarquable discrétion, prend de cours Yomgeong et ses généraux et permet enfin aux domaines alliés de s'emparer de plusieurs places fortes à l'Est de Taalses. Le relief montagneux au Nord-Ouest de Thurm limite leur percée à un court segment du front Sud, mais protège également la jonction de leurs forces avec celles de l'Alliance du Nord. Depuis cette tête de pont, les quatre domaines peuvent alors déployer leurs troupes bien plus efficacement et sérieusement menacer la double couronne.</p>"
         }
       },
       {
@@ -42,7 +42,7 @@
         },
         "text": {
           "headline": "Stabilisation des fronts",
-          "text": "<p>En dépit d'une situation stratégique plus favorable, les quatre domaines alliés voient leurs opportunités de revanche retardées par des conditions climatiques particulièrement défavorables. Deux années de suite, les récoltes sont déteriorées par les hivers rigoureux et les étés gris, à tel point que la famine menace Medainë. De part et d'autre du front, le cruel manque de provisions interdit toute opération d'envergure, et les belligérants n'ont d'autre choix que de camper sur leurs positions en attendant des jours meilleurs.</p><p>Cependant, bien que les troupes délaissent les champs de bataille, la guerre se poursuit sur le terrain du renseignement. Cette période du conflit voit se développer des réseaux d'espionnage et d'infiltration au service des seigneurs me'eda, plus que jamais conscients de l'importance critique de l'effet de surprise.</p>"
+          "text": "<p>En dépit d'une situation stratégique plus favorable, les quatre domaines alliés voient leurs opportunités de déploiement retardées par des conditions climatiques particulièrement défavorables. Deux années de suite, les maigres récoltes causées par hivers rigoureux et étés gris amenuisent les provisions des belligérants, interdisant. toute opération d'envergure, d'un côté comme de l'autre.</p><p>Cependant, bien que les troupes soient forcées de délaisser les champs de bataille, la guerre se poursuit sur le terrain du renseignement. En effet, cette période du conflit voit se développer des réseaux d'espionnage et d'infiltration au service des seigneurs me'eda, plus que jamais conscients de l'importance critique de l'effet de surprise.</p>"
         }
       },
       {
@@ -53,8 +53,8 @@
           "year": "-195"
         },
         "text": {
-          "headline": "Siège de Thurm",
-          "text": "<p></p>"
+          "headline": "Siège de Yomba-da",
+          "text": "<p>Après les défaites essuyées dans l'Est et deux ans de cesser-le-feu forcé, Yomgeong est impatient de prendre sa revanche sur Nooar II. Cependant, plutôt que de chercher à reconquérir les cités cédées à l'ennemi, il ordonne de déployer ses troupes au Sud en vue de de faire le siège de Yomba-da. La cible est autant symbolique que stratégique : l'impétueux seigneur souhaite s'emparer du trône de cette monarque qui ose lui tenir tête, et priver ses ennemis d'une importante place forte.</p><p>Cependant, la tâche s'avère difficile, tant les troupes de la double couronne sont déjà dispersées sur les différents fronts. Contre les conseils de ses généraux, Yomgeong réunit une force d'invasion en allégeant les défenses du Nord, mais celle-ci ne suffit pas à submerger la garnison de Yomba-da. Après cinq ans de conflit, les hommes se font plus rares et moins combattifs, et en dépit des exhortations de leur seigneur, le siège peine à progresser. Yomgeong refusera de l'abandonner pendant trois ans, avant que son état-major parvienne enfin à lui faire entendre raison.</p>"
         }
       },
       {
@@ -66,7 +66,7 @@
         },
         "text": {
           "headline": "Guerre d'usure",
-          "text": "<p></p>"
+          "text": "<p>Les quatre seigneurs alliés voient dans la retraite des assiégeants de Yomba-da la preuve de l'affaiblissement critique de la double couronne et comptent bien saisir cette occasion pour riposter. Ils entreprennent de grignoter le terrain ennemi là où il manque d'ouvrages fortifiés, et s'attaquent tant que possible aux voies de communication et d'approvisionnement. Cependant, la fatigue se fait sentir au sein de leurs troupes, dont la progression doit rester lente afin d'éviter embuscades et contre-attaques qui la mettraient en déroute.</p><p>Quelques victoires notables à l'Est de Taalses suffisent à nourrir l'espoir et la combativité de l'état-major, qui rêve de défier la double couronne jusqu'aux portes de sa capitale. De son côté, Yomgeong prête désormais oreille à ses généraux et accepte de céder du terrain pour affecter ses dernières divisions à la défense de son domaine. Ce n'est qu'à ce prix que la double couronne parvient à tenir ses positions les plus décisives face à des assaillants dont la supériorité numérique ne fait que croître.</p>"
         }
       },
       {
@@ -74,8 +74,8 @@
           "year": "-190"
         },
         "text": {
-          "headline": "Nouvelle campagne vers Porara",
-          "text": "<p></p>"
+          "headline": "Nouvelle campagne vers Chuzan",
+          "text": "<p>Après un hiver fort humide, les troupes de l'Alliance du Nord voient leur progression contrariée par une terrible épidémie qui se répand dans leurs rangs. Yomgeong veut y voir un signe du destin en sa faveur et profite de cette tournure inattendue des événements pour insuffler un nouvel espoir chez ses soldats. En quelques mois, ses troupes reprennent le contrôle de l'essentiel du territoire précédemment cédé. Vulnérable et exsangue, Chuzan est le premier domaine à envoyer des émissaires pour négocier la paix avec la double couronne, et est bientôt imité par son allié Porara.</p><p>Persuadé que la maladie frappera aussi ses ennemis au Sud, et galvanisé par le succès de la reconquête, Yomgeong refuse les armistices et ordonne une nouvelle fois l'invasion de Chuzan. Ses généraux, qui se savent désormais incapables de le raisonner, entament alors des négociations secrètes avec l'Alliance du Nord pour empêcher leur seigneur de mettre la double couronne en péril.</p>"
         }
       },
       {
@@ -83,8 +83,8 @@
           "year": "-189"
         },
         "text": {
-          "headline": "Assassinat de Yomgeong et armistice",
-          "text": "<p></p>"
+          "headline": "Assassinat de Yomgeong et traité de paix",
+          "text": "<p>Les généraux de Yomgeong fomentent un assassinat pour se débarrasser de ce monarque ayant perdu toute raison, pendant une revue des troupes postées à la frontière avec Chuzan. L'état-major termine sa revue au sommet d'une colline dégagée, depuis laquelle le seigneur contemple du haut de son cheval les terres à la merci de ses armées. Avec la complicité des félons, un archer ennemi s'est infiltré jusqu'au pied de la colline et décoche une flèche meutrière vers sa cible. Le tir manque faire mouche mais frôle la monture du seigneur. Celle-ci se cabre violemment et fait chuter Yomgeong, qui se brise la nuque : mission accomplie.</p><p>Le peuple et les soldats pleurent à peine le défunt, pendant que les cours nobles du pays poussent un soupir de soulagement. Les pourparlers sont immédiatement lancées mais se déroulent dans une atmosphère tendue : chaque camp garde la rancune des violences commises ceux d'en face. En dépit des revendications de Nooar II, il est finalement convenu que les anciennes frontières des domaines seront rétablies en même temps que la paix.</p>"
         }
       }
     ]

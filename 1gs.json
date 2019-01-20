@@ -28,9 +28,12 @@
       "start_date": {
         "year": "-648"
       },
+      "end_date": {
+        "year": "-645"
+      },
       "text": {
-        "headline": "Contre-attaque des Me'eda",
-        "text": "<p>Du côté des Me'eda, les chefs réunis en urgence organisent la contre-attaque et rassemblent leurs forces pour résister à l'envahisseur. Malgré l'absence d'armée conventionnelle chez les Me'eda, ceux-ci disposent d'intrépides chasseurs et d'excellents cavaliers, qui mènent de nombreuses attaques éclairs sur les positions ennemies les plus vulnérables. Privilégiant les escarmouches et les embuscades et évitant la moindre bataille rangée, ils mènent leurs assauts par petites unités mobiles de tireurs montés, autonomes ou supportées par de l'infanterie légère.</p>"
+        "headline": "Contre-attaques des Me'eda",
+        "text": "<p>Du côté des Me'eda, les chefs réunis en urgence organisent la contre-attaque et rassemblent leurs forces pour résister à l'envahisseur. Malgré l'absence d'armée régulière chez les Me'eda, ceux-ci sont d'intrépides chasseurs. Leurs excellents cavaliers mènent de nombreuses attaques éclairs sur les positions ennemies les plus vulnérables. Privilégiant les escarmouches et les embuscades et évitant la moindre bataille rangée, les Me'eda mènent leurs assauts par petites unités mobiles de tireurs montés, autonomes ou supportées par de l'infanterie légère.</p>"
       }
     },
     {
