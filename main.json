@@ -71,7 +71,7 @@
       "year": "-1100"
       },
       "text": {
-        "headline": "<div style='color:#666666'>Errance des me'eda</div>",
+        "headline": "Errance des Me'eda",
         "text": "<p>Établis sur des terres situées au Nord-Ouest de l'actuel Erdaas, les Me'eda voient les zones habitables de cette région peu à peu rabotées par la transgression marine. Outre ses conséquences climatiques, ce phénomène bouleverse également l'équilibre politique de la région, au point de forcer les tribus me'eda à la fuite, les unes après les autres.</p><p>Dépourvues de leur terre d'origine, elles adoptent alors un mode de vie nomade et parcourent le continent à la recherche de contrées où s'établir. Ils sont à plusieurs reprises chassés de leurs habitats temporaires par des peuples humains ou Kala'em s'opposant à leur présence durable sur leurs terres.</p>"
       }
     },
@@ -89,26 +89,23 @@
     },
     {
       "start_date": {
-        "year": "-1087"
-      },
-      "end_date": {
-        "year": "-1063"
+        "year": "-1083"
       },
       "text": {
         "headline": "<div style='color:#156523'>Premiers contacts avec les Esah'em</div>",
-        "text": "<p>Après quelques décennies passées à les observer, les Esah'em décident d'entrer directement en contact avec les Me'eda.</p>"
+        "text": "<p>Après quelques décennies d'observation, les Esah'em entrent en contact avec les Me'eda en -1083, par une manifestation télépathique s'étendant sur tout le pays. Ils se présentent comme les dieux majeurs de ce monde, et les gardiens des contrées que leur peuple entreprend de s'approprier. Cette apparition magique désempare leurs interlocuteurs humains, qui ne voient en ces entités rien de commun avec les dieux qu'ils vénèrent depuis des siècles. Mais les Esah'em, plus amusés qu'offensés par la méfiance qu'ils suscitent, prennent alors forme humaine et rendent visite aux Me'eda dans leurs villages, où quelques démonstrations de leurs pouvoirs suffisent à convaincre la plupart des incrédules.</p><p>Au contact de ces dieux, les humains font bientôt preuve d'une grande curiosité et les inondent de questions, de la métaphysique à l'astronomie en passant par la morale et la politique. Les Esah'em offrent des réponses tant qu'elles sont à la portée d'un esprit humain, mais se plaisent aussi à ne pas trop en dire pour laisser à ce peuple le soin de faire ses propres découvertes. De leur côté, les chefs de tribu et les prêtres font bientôt face à un dilemme, n'osant renier les croyances qui légitiment leur autorité mais craignant de vexer ainsi ces dieux énigmatiques.</p>"
       }
     },
     {
       "start_date": {
-        "year": "-651"
+        "year": "-1070"
       },
       "end_date": {
-        "year": "-644"
+        "year": "-1022"
       },
       "text": {
-        "headline": "<div style='color:#980404'>Première guerre savadique</div>",
-        "text": "<p><i><a href='frise.php?id=1gs'>Frise détaillée</a></i></p><p>Les Me'eda doivent faire face à la première agression militaire à leur encontre depuis leur sédentarisation. Le roi de Silig, pays voisin à l'Ouest de la passe de Savad, lève un ost de près de sept mille soldats et ordonne l'invasion de Medainë. Pris au dépourvu, les Me'eda fuient d'abord vers le Nord et l'Est du pays, abandonnant leurs villes à l'envahisseur, qui progresse deux ans durant jusqu'à étirer la ligne de front au maximum des capacités de ses troupes.</p><p>Les Me'eda, intrépides chasseurs et excellents cavaliers, contre-attaquent l'année suivante en lançant leurs archers à l'assaut des positions ennemies, rendues vulnérables par la dispersion des troupes sur le territoire conquis. Après deux ans d'escarmouches, l'armée de Silig doit battre en retraite face à la cavalerie me'eda qui les tiraille sans relâche. Celle-ci parvient même à prendre de vitesse ses ennemis et les force à se terrer dans Kodosha-da après avoir coupé leurs voies d'approvisionnement. La guerre prend fin avec la capitulation des troupes de Silig, assiégées depuis un an, démoralisées et abandonnées par leur roi.</p>"
+        "headline": "<div style='color:#156523'>Établissement de la Concorde</div>",
+        "text": "<p>Depuis ce premier contact, tous les étages de la société me'eda sont en proie à une intense agitation. En dépit de l'indéniable nature surhumaine de ces entités, la vieille génération refuse farouchement de les appeler « dieux » et d'abandonner les croyances héritées des ancêtres nomades. Tandis que des opportunistes jouent aux prophètes, le clergé réunit précipitamment un concile et décide que serait désormais diffusée une foi syncrétique, où anciens et nouveaux dieux cohabitent. Mais les Esah'em, aussi vigilants que tout-puissants, font taire quiconque prétend parler en leur nom ou mentir à leur sujet.</p><p>Constatant le désarroi causé par leur apparition, les divinités proposent alors un pacte aux Me'eda. Elles offrent à ce peuple de les accompagner dans leur quête d'une nouvelle patrie. Cependant, les Me'eda ne seront tolérés sur ces terres qu'à condition qu'ils en préservent la beauté et respectent la vie qui s'y épanouit déjà. Plus que jamais conscients du sursis accordé à leur peuple jusqu'à présent, les chefs de tribu et les pontifes se réunissent pour décider au nom de tous les Me'eda. Devant cette opportunité d'un nouveau départ après des siècles d'errance, et avec le soutien de la plus grande part de la population, les dirigeants acceptent presque unanimement ce pacte. C'est ainsi qu'est établie la Concorde, qui unira durant des siècles le destin des Me'eda et de leurs héritiers à celui des Esah'em.</p>"
       }
     },
     {
@@ -119,7 +116,7 @@
         "year": "-660"
       },
       "text": {
-        "headline": "<div style='color:#666666'>Exploration et aménagement des terres</div>",
+        "headline": "Exploration et aménagement des terres",
         "text": "<p>Les villes grandissent, la population croît rapidement et les Me'eda continuent à s'établir partout où ils le peuvent sur ces terres, dessinant peu à peu les contours du pays. Pour faciliter le transport et la communication, ils aménagent des routes de terres, ainsi que des voies fluviales facilitant les échanges d'une ville à l'autre. Les Me'eda se mettent également à la recherche de gisements de minerai, tandis que la métallurgie se développe pour répondre aux nouveaux besoins apparus avec l'essor de l'agriculture et de l'artisanat.</p>"
       }
     },
@@ -189,7 +186,7 @@
       },
       "text": {
         "headline": "<div style='color:#980404'>Deuxième guerre savadique</div>",
-        "text": "<p><i><a href='frise.php?id=2gs'>Frise détaillée</a></i></p><p>Les royaumes étrangers de Silig et Aleb assaillent Kodosha avec le renfort de plusieurs tribus des montagnes de part et d'autre de la passe de Savad. Face à une force d'invasion de près de trente mille soldats, Kodosha est conquis en quelques mois et les envahisseurs placent sur le trône un monarque fantoche, institué comme vassal de la couronne de Silig. La famille du seigneur légitime se réfugie à Taalses, tandis que les autres seigneurs me'eda assistent à cette agression avec inquiétude, mais sans oser intervenir.</p><p>Trois ans plus tard, Taalses entre en guerre avec la nouvelle couronne de Kodosha suite à un incident diplomatique et envoie une armée de six mille soldats à la reconquête de la région. Trois ans durant, la guerre fait rage sans qu'aucun belligérant ne prenne le dessus, jusqu'à ce que d'autres seigneurs de Medainë interviennent dans le conflit. En effet, leurs domaines souffrent du blocage croissant des voies de communication vers l'Ouest, et sont finalement persuadés de venir au secours de Kodosha par des actes sacrilèges commis par l'occupant. L'alliance des me'eda face à l'occupant est décisive pour l'issue du conflit : avec le soutien des autres domaines, Kodosha est reconquis l'année suivante et la dynastie légitime est réinstituée sur le trône. Devant le regain de solidarité entre les seigneurs, Aleb et Silig préfèrent abandonner leurs ambitions conquérantes. Les vainqueurs leur imposent une paix coûteuse ainsi que le retrait permanent de toutes leurs forces armées dans une frange d'une quarantaine de kilomètres sur toute la longueur de la frontière savadique.</p>"
+        "text": "<p><i><a href='frise.php?id=2gs'>Frise détaillée</a></i></p><p>Les royaumes de Silig et Aleb assaillent Kodosha avec le renfort de plusieurs tribus de Montagnards de part et d'autre de la passe de Savad. Face à une force d'invasion de près de trente mille soldats, Kodosha est conquis en quelques mois et les envahisseurs placent sur le trône un monarque fantoche, institué comme vassal de la couronne de Silig. La famille du seigneur légitime se réfugie à Taalses, tandis que les autres seigneurs me'eda assistent à cette agression avec inquiétude, mais sans oser intervenir.</p><p>Trois ans plus tard, Taalses entre en guerre avec la nouvelle couronne de Kodosha suite à un incident diplomatique et envoie une armée de six mille soldats à la reconquête de la région. Trois ans durant, la guerre fait rage sans qu'aucun belligérant ne prenne le dessus, jusqu'à ce que d'autres seigneurs de Medainë interviennent. En effet, leurs domaines souffrent du blocage des voies de communication vers l'Ouest, et sont finalement persuadés de venir au secours de Kodosha par des actes sacrilèges commis par l'occupant. L'alliance des me'eda face à l'occupant est décisive pour l'issue du conflit : avec le soutien des autres domaines, Kodosha est reconquis l'année suivante et la dynastie légitime est réinstituée sur le trône. Devant ce regain de solidarité, Aleb et Silig préfèrent abandonner leurs ambitions conquérantes. Les vainqueurs leur imposent une paix coûteuse ainsi que le retrait permanent de toutes leurs forces armées dans une frange d'une quarantaine de kilomètres sur toute la longueur de la frontière savadique.</p>"
       }
     },
     {
@@ -207,7 +204,7 @@
       },
       "text":{
         "headline": "<div style='color:#244f9a'>Formation de l'Alliance du Nord</div>",
-        "text": "<p>Afin de défendre plus fermement leurs intérêts face à la double couronne de Taalses-Kodosha, les deux domaines du Nord du pays décident d'unir leurs forces. Chuzan et Porara constituent ainsi l'Alliance du Nord, une entente à la fois militaire et commerciale, pour mieux résister aux restrictions imposées par le domaine nouvellement unifié à l'Ouest. Désormais en mesure de faire davantage pression sur celui-ci, ils tentent également de contourner les péages qu'il impose, en développant de nouvelles voies commerciales traversant la chaîne des Ymia par les cols et vallées les plus praticables. Sur le plan économique, le résultat n'est pas des plus convaincants, mais les efforts entrepris par l'Alliance du Nord la rapprochent diplomatiquement et commercialement des tribus des montagnes.</p>"
+        "text": "<p>Afin de défendre plus fermement leurs intérêts face à la double couronne de Taalses-Kodosha, les deux domaines du Nord du pays décident d'unir leurs forces. Chuzan et Porara constituent ainsi l'Alliance du Nord, une entente à la fois militaire et commerciale, pour mieux résister aux restrictions imposées par le domaine nouvellement unifié à l'Ouest. Désormais en mesure de faire davantage pression sur celui-ci, ils tentent également de contourner les péages qu'il impose, en développant de nouvelles voies commerciales traversant la chaîne des Ymia par les cols et vallées les plus praticables. Sur le plan économique, le résultat n'est pas des plus convaincants, mais les efforts entrepris par l'Alliance du Nord la rapprochent diplomatiquement et commercialement des tribus de Montagnards établies dans les Ymia.</p>"
       }
     },
     {
@@ -249,7 +246,82 @@
       },
       "text":{
         "headline": "<div style='color:#980404'>Guerre de la nouvelle lune</div>",
-        "text": "<p><i><a href='frise.php?id=gnl'>Frise détaillée</a></i></p><p>Les alliances du Nord et du Sud menacent d'envahir la double couronne si celle-ci n'allège pas les droits de douane qu'elle réclame. Entêté et va-t-en-guerre, Yomgeong, le seigneur de Taalses-Kodosha fait traîner les négociations tout en préparant ses armées à un assaut vers Chuzan. L'attaque est lancée à la nouvelle lune du cinquième mois et donnera au conflit son nom de « guerre de la nouvelle lune ».</p><p>L'assaut prend l'Alliance du Nord au dépourvu et les armées de Yomgeong progressent en territoire ennemi pendant plusieurs mois, avant de subir une contre-attaque venue de Porara, puis un débarquement des troupes de Yomba et Istuuk à l'Est. Pourtant, pendant huit ans Yomgeong s'obstinera à relancer des invasions, d'abord vers Yomba puis de nouveau vers Chuzan, toujours au prix de pertes considérables et de retraites aussi rares que coûteuses. Il est finalement assassiné avec la complicité de ses généraux les plus influents, désireux de mettre fin au conflit avant que leur seigneur ne condamne définitivement ses soldats et son peuple. S'empressant de négocier le traité de paix qu'on exige d'eux avec insistance, les diplomates représentant les différentes couronnes s'accordent finalement sur un retour au tracé des frontières telles qu'elles étaient avant la guerre.</p>"
+        "text": "<p><i><a href='frise.php?id=gnl'>Frise détaillée</a></i></p><p>Les alliances du Nord et du Sud menacent d'envahir la double couronne si celle-ci n'allège pas les droits de douane qu'elle réclame. Entêté et va-t-en-guerre, Yomgeong, le seigneur de Taalses-Kodosha fait traîner les négociations tout en préparant ses armées à un assaut vers Chuzan. L'attaque est lancée à la nouvelle lune du cinquième mois et donnera au conflit son nom de « guerre de la nouvelle lune ».</p><p>L'assaut prend l'Alliance du Nord au dépourvu et les armées de Yomgeong progressent en territoire ennemi pendant plusieurs mois, avant de subir une contre-attaque venue de Porara, puis un débarquement des troupes de Yomba et Istuuk à l'Est. Pourtant, pendant huit ans Yomgeong s'obstinera à relancer des invasions, d'abord vers Yomba puis de nouveau vers Chuzan, toujours au prix de pertes considérables et de retraites aussi rares que coûteuses. Il est finalement assassiné avec la complicité de ses généraux les plus influents, désireux de mettre fin au conflit avant que leur seigneur ne condamne définitivement ses soldats et son peuple. S'empressant de négocier le traité de paix qu'on exige d'eux avec insistance, les diplomates représentant les différentes couronnes s'accordent finalement sur un retour au tracé des frontières telles qu'elles étaient avant la guerre. Le nouveau gouvernement de Taalses-Kodosha doit cependant céder aux revendications économiques des alliances du Nord et du Sud.</p>"
+      }
+    },
+    {
+      "start_date":{
+        "year": "-195"
+      },
+      "end_date":{
+        "year": "-160"
+      },
+      "text":{
+        "headline": "Essor économique de l'Est",
+        "text": "<p>Les longues années d'affrontements dans l'Ouest du pays ont considérablement affaibli les couronnes qui dominaient Medainë auparavant, par leur influence économique et militaire. Les domaines pacifiques de l'Est sont largement sollicités, d'abord pour alimenter l'effort de guerre des belligérants, puis pour soutenir la reconstruction et la relance économique des états meurtris par les combats. Ainsi Gohuenë et Damoenë, terres réputées pour leurs animaux, exportent vers l'Ouest quantité de bétail aussi bien que leur savoir-faire en matière d'élevage et de dressage. De son côté, Jelain s'enrichira en faisant commerce de produits d'artisanat et autres biens manufacturés : textiles, verrerie et céramique, charrettes, armement…</p><p>Ce développement économique profite notablement aux communautés d'artisans présentes dans ces régions et leur permet d'étendre leur influence dans les autres domaines du pays. Certaines y phagocytent même leurs concurrentes, affaiblies par les mises à sac et pillages des cités conquises.</p>"
+      }
+    },
+    {
+      "start_date":{
+        "year": "-152"
+      },
+      "end_date":{
+        "year": "-149"
+      },
+      "text":{
+        "headline": "Révolte paysanne à Yomba",
+        "text": "<p>Quatre décennies après la Guerre de la Nouvelle Lune, la couronne de Yomba fait encore face à d'importantes difficultés financières. Ainsi, lorsqu'elle s'avère incapable de payer leur solde, beaucoup de ses hommes d'armes désertent et subviennent à leurs besoins par le pillage et le racket dans les campagnes. Les paysans se mobilisent alors dans plusieurs districts et s'organisent en troupes armées pour assurer leur propre défense.</p><p>Quelques mois plus tard, la décision de la couronne de réhausser les taxes pour renflouer ses caisses, provoque le soulèvement de ces paysans. Ils renvoient d'abord les percepteurs et sergents venus collecter l'impôt, puis tentent de rallier à leur cause les villes modestes, qui souffrent des troubles économiques autant que la société rurale. Cette initiative n'est toutefois pas concluante, et l'insurrection peine à s'organiser durablement. Après deux ans d'échaufourrées entre hommes d'armes et paysans, la couronne reçoit finalement de l'aide d'Istuuk pour assainir ses finances et mater la révolte par la force. Une troupe de neuf cents soldats est déployée à Thurm et marche sur les villages rebelles l'un après l'autre, mettant impitoyablement fin à la révolte.</p><p>Bien que le soulèvement se soit cantonné au seul domaine de Yomba, les autres couronnes en tirent les leçons pour prévenir ce genre d'insurrection, en inspirant à leurs sujets ou bien la crainte, ou bien la sympathie.</p>"
+      }
+    },
+    {
+      "start_date":{
+        "year": "-131"
+      },
+      "end_date":{
+        "year": "-124"
+      },
+      "text":{
+        "headline": "<div style='color:980404'>Raids de Montagnards sur Taalses</div>",
+        "text": "<p>Au Nord-Est de Medainë, au-delà des Ymia et de la passe de Savad, guerres, invasions et pillages se succèdent depuis plusieurs décennies. C'est dans ce contexte que plusieurs tribus de Montagnards de cette région s'enhardissent et s'aventurent au-delà de leurs vallées pour piller leurs voisins. Les raids frappent d'abord Silig, puis  Taalses, s'avançant en profondeur dans les terres ennemies. Les forces me'eda locales sont mises en échec par la mobilité et la furtivité des Montagnards, prompts à se replier et tendre des embuscades.</p><p>Pour repousser les pillards, la couronne ordonne de déployer un escadron entier de chasseurs au Nord du domaine. Avec ce renfort décisif de soldats bien équipés et entraînés, l'armée de Taalses peut enfin prendre de vitesse les Montagnards et contrer leurs embuscades. La dispersion des attaques rend toutefois la tâche difficile, et les combats se poursuivent durant plusieurs mois avant que les assaillants ne soient forcés de battre en retraite dans les montagnes. Désireux d'éliminer tout risque de récidive prochaine, le seigneur de Taalses ordonne de rattraper les fuyards jusque dans les vallées les plus proches, mais interdit tout pillage en guise de représailles. La démonstration de force est une brillante réussite, à tel point que plusieurs meneurs de tribus de Montagnards viennent d'eux-mêmes demander l'arrêt des combats.</p>"
+      }
+    },
+    {
+      "start_date":{
+        "year": "-112"
+      },
+      "text":{
+        "headline": "<div style='color:244f9a'>Incident diplomatique de la Ma'av</div>",
+        "text": "<p>Le développement économique de Gohuenë et Damoenë est forcé de ralentir à mesure que l'exploitation des terres arables disponibles à l'Est atteint son niveau maximal. L'absence de tracé clair de frontières avec les Géants dominant la plaine de la Ma'av rend difficile l'établissement de nouvelles exploitations agricoles. Cependant, le nouveau seigneur de Gohuenë décide de mettre fin à la tradition séculaire de précaution, et ordonne que soient étendues les limites des champs le long de la frontière.</p><p>À la surprise générale, la réaction des Géants à cette revendication territoriale est immédiate et spectaculaire. Seulement deux jours après que les géomètres ont balisé les nouvelles parcelles, des milliers de Géants surgissent de la plaine et s'alignent d'un bout à l'autre de la frontière. Alors que les Me'eda restent figés de stupeur, leurs voisins divins entreprennent de marquer pour de bon les limites des terres qui leur reviennent, en fichant profondément dans le sol d'immenses troncs d'arbres. Sous les yeux d'humains trop effrayés pour intervenir, quatre Géants marchent pacifiquement jusqu'à Ilyh et déposent un dernier tronc d'arbre face au palais seigneurial. La démonstration de force fait son effet : la couronne abandonne ses velléités d'expansion, et les domaines de l'Est sont définitivement découragés d'empiéter sur les contrées des Géants. Les Me'eda s'appliqueront en outre à cartographier et baliser de façon durable la démarcation imposée par les Géants.</p>"
+      }
+    },
+    {
+      "start_date":{
+        "year": "-87"
+      },
+      "text":{
+        "headline": "<div style='color:244f9a'>Bouleversement des alliances</div>",
+        "text": "<p>Après plusieurs années de pourparlers menés en secret, deux unions entre aristocrates de la haute noblesse sont arrangées pour regrouper sous la même couronne les domaines de Jelain, Istuuk et Porara. Ce rassemblement est avant tout motivé par les colossales ambitions nourries par les guildes et riches marchands de Jelain, dont l'influence politique n'a fait que croître depuis un siècle.</p><p>L'annonce officielle fait l'effet d'une bombe dans le milieu diplomatique de Medainë et remet en question les alliances déjà conclues entre seigneurs il y a près de deux siècles. Immédiatement, la couronne de Taalses-Kodosha dénonce cette manœuvre politique déloyale vis-à-vis de Chuzan et Yomba, qui se retrouvent soudainement dépourvus d'alliés. Bien qu'il apparaisse d'emblée que la double couronne souhaite ainsi s'attirer les bonnes grâces de ses voisins, cette réaction trouve un large écho auprès des autres cours nobles du pays. Cependant, la triple couronne tout juste formée fait peu de cas des avis des autres seigneurs et prend rapidement en main le nouvel équilibre politique et économique pour s'imposer comme la nouvelle puissance à Medainë.</p>"
+      }
+    },
+    {
+      "start_date":{
+        "year": "-81"
+      },
+      "end_date":{
+        "year": "-67"
+      },
+      "text":{
+        "headline": "<div style='color:244f9a'>Vassalisation des domaines de l'Est</div>",
+        "text": "<p>À l'Est du pays, la situation des domaines de Gohuenë et Damoenë se rapproche dangereusement de celle d'une enclave, en dépit de leurs frontières plurielles. En effet, leur position géographique les enferme entre les étendues inhospitalières du Goro Zan au Sud, les territoires des Géants à l'Est, et les domaines désormais unifiés de la triple couronne à l'Ouest. Cette dernière en profite d'abord pour assujettir économiquement ces voisins vulnérables grâce à sa mainmise sur les voies commerciales et à l'expansion agressive des guildes de Jelain, dont le pouvoir politique et financier ne cesse de croître.</p><p>En -70, après une dizaine d'années d'immixtion et de noyautage des affaires d'état de Gohuenë, les forces de l'ombre de la triple couronne contraignent leur voisin à lui jurer allégeance et devenir son vassal. Trois ans plus tard, c'est au tour de Damoenë de céder devant la pression militaire à peine dissimulée et les intrigues incessantes d'espions et dignitaires à tous les étages du gouvernement. De leur côté, les cours seigneuriales du reste du pays condamnent unanimement ces manœuvres coercitives, mais se gardent bien d'intervenir concrètement en faveur l'autonomie de leurs semblables."
+      }
+    },
+    {
+      "start_date":{
+        "year": "-38"
+      },
+      "text":{
+        "headline": "<div style='color:244f9a'>Lutte pour le trône de Taalses-Kodosha</div>",
+        "text": "<p></p>"
       }
     }
   ]
