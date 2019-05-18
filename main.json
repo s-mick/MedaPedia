@@ -300,27 +300,27 @@
       },
       "text":{
         "headline": "<div style='color:244f9a'>Bouleversement des alliances</div>",
-        "text": "<p>Après plusieurs années de pourparlers menés en secret, deux unions entre aristocrates de la haute noblesse sont arrangées pour regrouper sous la même couronne les domaines de Jelain, Istuuk et Porara. Ce rassemblement est avant tout motivé par les colossales ambitions nourries par les guildes et riches marchands de Jelain, dont l'influence politique n'a fait que croître depuis un siècle.</p><p>L'annonce officielle fait l'effet d'une bombe dans le milieu diplomatique de Medainë et remet en question les alliances déjà conclues entre seigneurs il y a près de deux siècles. Immédiatement, la couronne de Taalses-Kodosha dénonce cette manœuvre politique déloyale vis-à-vis de Chuzan et Yomba, qui se retrouvent soudainement dépourvus d'alliés. Bien qu'il apparaisse d'emblée que la double couronne souhaite ainsi s'attirer les bonnes grâces de ses voisins, cette réaction trouve un large écho auprès des autres cours nobles du pays. Cependant, la triple couronne tout juste formée fait peu de cas des avis des autres seigneurs et prend rapidement en main le nouvel équilibre politique et économique pour s'imposer comme la nouvelle puissance à Medainë.</p>"
+        "text": "<p>Après plusieurs années de pourparlers menés en secret, deux unions entre aristocrates de la haute noblesse sont arrangées pour regrouper sous la même couronne les domaines de Jelain, Istuuk et Porara. Ce rassemblement est avant tout motivé par les colossales ambitions nourries par les guildes et riches marchands de Jelain, dont l'influence politique n'a fait que croître depuis un siècle. Grâce à leurs liens privilégiés avec les différentes cours impliquées, ils parviennent à placer leur protégé à la tête de ce vaste et puissant état.</p><p>L'annonce officielle fait l'effet d'une bombe dans le milieu diplomatique de Medainë et remet en question les alliances déjà conclues entre seigneurs il y a près de deux siècles. Immédiatement, la couronne de Taalses-Kodosha dénonce cette manœuvre politique déloyale vis-à-vis de Chuzan et Yomba, qui se retrouvent soudainement dépourvus d'alliés. Bien qu'il apparaisse d'emblée que la double couronne souhaite ainsi s'attirer les bonnes grâces de ses voisins, cette réaction trouve un large écho auprès des autres cours nobles du pays. Cependant, la triple couronne tout juste formée fait peu de cas des avis des autres seigneurs et prend rapidement en main le nouvel équilibre politique et économique pour s'imposer comme la nouvelle puissance à Medainë.</p>"
       }
     },
     {
       "start_date":{
-        "year": "-81"
+        "year": "-71"
       },
       "end_date":{
-        "year": "-67"
+        "year": "-57"
       },
       "text":{
         "headline": "<div style='color:244f9a'>Vassalisation des domaines de l'Est</div>",
-        "text": "<p>Dans l'Est du pays, la situation des domaines de Gohuenë et Damoenë se rapproche dangereusement de celle d'une enclave, en dépit de leurs frontières plurielles. En effet, leur position géographique les enferme entre les étendues inhospitalières du Goro Zan au sud, les territoires des Géants à l'est, et les domaines désormais unifiés de la triple couronne à l'ouest. Cette dernière en profite d'abord pour assujettir économiquement ces voisins vulnérables grâce à sa mainmise sur les voies commerciales et à l'expansion agressive des guildes de Jelain, dont le pouvoir politique et financier ne cesse de croître.</p><p>En -70, après une dizaine d'années d'immixtion et de noyautage des affaires d'état de Gohuenë, les forces de l'ombre de la triple couronne contraignent leur voisin à lui jurer allégeance et devenir son vassal. Trois ans plus tard, c'est au tour de Damoenë de céder devant les pressions politiques et militaires à peine dissimulées et les intrigues incessantes d'espions et dignitaires à tous les étages du gouvernement. De leur côté, les cours seigneuriales du reste du pays condamnent unanimement ces manœuvres coercitives, mais se gardent bien d'intervenir concrètement en faveur de l'autonomie de leurs semblables."
+        "text": "<p>Dans l'Est du pays, la situation des domaines de Gohuenë et Damoenë se rapproche dangereusement de celle d'une enclave, en dépit de leurs frontières plurielles. En effet, leur position géographique les enferme entre les étendues inhospitalières du Goro Zan au sud, les territoires des Géants à l'est, et les domaines désormais unifiés de la triple couronne à l'ouest. Cette dernière en profite d'abord pour assujettir économiquement ces voisins vulnérables grâce à sa mainmise sur les voies commerciales et à l'expansion agressive des guildes de Jelain, dont le pouvoir politique et financier ne cesse de croître.</p><p>En -60, après une dizaine d'années d'immixtion et de noyautage des affaires d'état de Gohuenë, les forces de l'ombre de la triple couronne contraignent leur voisin à lui jurer allégeance et devenir son vassal. Trois ans plus tard, c'est au tour de Damoenë de céder devant les pressions politiques et militaires à peine dissimulées et les intrigues incessantes d'espions et dignitaires à tous les étages du gouvernement. De leur côté, les cours seigneuriales du reste du pays condamnent unanimement ces manœuvres coercitives, mais se gardent bien d'intervenir concrètement en faveur de l'autonomie de leurs semblables."
       }
     },
     {
       "start_date":{
-        "year": "-38"
+        "year": "-28"
       },
       "end_date":{
-        "year": "-36"
+        "year": "-26"
       },
       "text":{
         "headline": "<div style='color:980404'>Guerre pour le trône de Taalses-Kodosha</div>",
@@ -329,7 +329,7 @@
     },
     {
       "start_date":{
-        "year": "-33"
+        "year": "-23"
       },
       "text":{
         "headline": "<div style='color:244f9a'>Un royaume émerge à Medainë</div>",
@@ -338,23 +338,62 @@
     },
     {
       "start_date":{
-        "year": "-30"
+        "year": "-20"
       },
       "end_date":{
-        "year": "-28"
+        "year": "-18"
       },
       "text":{
         "headline": "<div style='color:980404'>Invasion de Yomba</div>",
-        "text": "<p>La reine Jayarun, qui n'a pas oublié la tentative d'usurpation de son oncle, vient personnellement chercher réparation en marchant vers Thurm à la tête de ses armées. À la frontière, le seigneur de Yomba est là pour l'accueillir et engager des pourparlers afin d'épargner à son peuple les affres d'une nouvelle guerre. Sous la tente diplomatique dressée pour l'occasion, il déclare être prêt à lui livrer l'oncle à condition que ses troupes se retirent et qu'elle ne mette plus en péril l'autonomie de Yomba. Au terme des négociations, la reine est sur le point d'accepter lorsqu'un des sergents de son interlocuteur la poignarde, avant d'être maîtrisé par les gardes. La reine est grièvement blessée à la nuque mais survit contre toute attente, au grand dam du commanditaire de la tentative d'assassinat.</p><p>Il n'en faut pas plus pour mettre la reine en fureur, qui accuse son homologue d'être complice de la tentative et lance sans aucune pitié ses troupes sur Yomba. Avec les renforts de Jelain et Istuuk, l'invasion ne rencontre aucune résistance si ce n'est à Thurm, où s'abritent l'oncle et ses derniers soutiens. La cité, fortifiée et âprement défendue, est finalement prise après seize mois de siège et d'innombrables assauts. Ainsi, un domaine de plus tombe sous le joug du royaume, qui y place un des loyalistes de Jayarun en tant que gouverneur.</p>"
+        "text": "<p>La reine Jayarun, qui n'a pas oublié la tentative d'usurpation de son oncle, vient personnellement chercher réparation en marchant vers Thurm à la tête de ses armées. À la frontière, le seigneur de Yomba est là pour l'accueillir et engager des pourparlers afin d'épargner à son peuple les affres d'une nouvelle guerre. Sous la tente diplomatique dressée pour l'occasion, il déclare être prêt à lui livrer l'oncle à condition que ses troupes se retirent et qu'elle ne mette plus en péril l'autonomie de Yomba. Au terme des négociations, la reine est sur le point d'accepter lorsqu'un des sergents de son interlocuteur la poignarde, avant d'être maîtrisé par les gardes. La reine est grièvement blessée à la nuque mais survit contre toute attente, au grand dam du commanditaire de la tentative d'assassinat.</p><p>Il n'en faut pas plus pour mettre la reine en fureur, qui accuse son homologue d'être complice de la tentative et lance sans aucune pitié ses troupes sur Yomba. Avec les renforts de Jelain et Istuuk, la force d'invasion ne rencontre aucune résistance si ce n'est à Thurm, où s'abritent l'oncle et ses derniers soutiens. La cité, fortifiée et âprement défendue, est finalement prise après seize mois de siège et d'innombrables assauts. Ainsi, un domaine de plus tombe sous le joug du royaume, qui y place un des loyalistes de Jayarun en tant que gouverneur.</p>"
       }
     },
     {
       "start_date":{
-        "year": "-25"
+        "year": "-15"
       },
       "text":{
-        "headline": "<div style='color:980404'>Mort de Jayarun, Limeg est sacré razhi</div>",
-        "text": "<p>Après cinq années à souffrir des séquelles de la tentative d'assassinat, Jayarun succombe à ses blessures, agravées par des infections et complications fréquentes. Son trône revient à Limeg, qui règne désormais en monarque absolu sur six des neuf domaines de Medainë, et chapeaute indirectement ses deux vassaux à l'est. Après un deuil de trois mois, il fait organiser un nouveau sacre confirmant sa souveraineté, par orgueil autant que par volonté de marquer cette étape de plus vers la réunion des Me'eda sous une même couronne. Il profite de l'occasion pour changer son titre, désireux de se débarrasser du mot d'emprunt employé pour l'appeler roi. Il s'octroie ainsi le rang de « razhi », néologisme de sa création, et prend le nom officiel de Limer I<sup>er</sup>.</p>"
+        "headline": "Mort de Jayarun, Limeg est sacré razhi",
+        "text": "<p>Après cinq années à souffrir des séquelles de la tentative d'assassinat, Jayarun succombe à ses blessures, agravées par des infections et complications fréquentes. Son trône revient à Limeg, qui règne désormais en monarque absolu sur six des neuf domaines de Medainë, et chapeaute indirectement ses deux vassaux à l'est. Après un deuil de trois mois, il fait organiser un nouveau sacre confirmant sa souveraineté, par orgueil autant que par volonté de marquer cette étape de plus vers la réunion des Me'eda sous une même couronne. Il profite de l'occasion pour changer son titre, désireux de se débarrasser du mot d'emprunt employé pour référer à sa qualité de roi. Il s'octroie ainsi le titre de « razhi », néologisme de sa création, et prend le nom officiel de Limeg I<sup>er</sup> pour incarner le point de départ d'une nouvelle dynastie de souverains.</p>"
+      }
+    },
+    {
+      "start_date":{
+        "year": "-12"
+      },
+      "end_date":{
+        "year": "-7"
+      },
+      "text":{
+        "headline": "Décadence de Chuzan",
+        "text": "<p>Le souverain de Chuzan tombe sous l'influence d'un gaedh aussi puissant que rusé, qui infiltre sa cour en prenant d'abord possession d'un des intendants du palais. En l'espace de quelques années, il se rapproche du trône en possédant successivement des membres du gouvernement, du modeste conseiller au ministre d'état. Une fois le seigneur à sa portée, ses pouvoirs de domination télépathique lui permettent d'exercer un ascendant total sur la cour et le domaine.</p><p>Soucieux d'éloigner les mages capables d'exorciser ses victimes, il parvient à introduire le culte officiel de Silig pour faire concurrence au clergé traditionnel, puis fait entériner ouvertement sa persécution. Les sanctuaires et reliquaires sont alors interdits d'accès, leurs portes condamnées et le clergé exilé ou exécuté. Obtenant le soutien diplomatique et militaire du royaume de Silig, Chuzan est moins vulnérable à la menace posée par la nouvelle puissance de Medainë, qui ne manque pourtant pas d'envie de renverser ce gouvernement indigne. En effet, le domaine voit sa prospérité l'abandonner et son peuple, qui subit les persécutions religieuses et la présence d'une armée étrangère, est en proie à une vive agitation.</p>"
+      }
+    },
+    {
+      "start_date":{
+        "year": "-3"
+      },
+      "text":{
+        "headline": "<div style='color:980404'>Guerre des amulettes</div>",
+        "text": "<p>Après plusieurs années à imposer leur culte par la force, les généraux de Silig en poste à Chuzan ordonnent finalement de détruire les lieux et objets de culte de l'ancienne foi, tels que les amulettes assiä et reliquaires. Ces actes sacrilèges suscitent l'indignation dans tout Medainë, offrant à Limeg I<sup>er</sup> une occasion d'entrer en guerre sainte contre Silig et la couronne de Chuzan, dernier domaine lui échappant encore.</p><p>Cependant, avant même que les Me'eda ne s'affrontent, les Ascendants interviennent, refusant de voir leurs semblables ainsi déshonorés et des âmes innocentes ainsi condamnées. De toute leur puissance, ils frappent les troupe de Silig jusque dans les casernes et les réduisent pratiquement à néant en l'espace d'une nuit sanglante. Dès que la nouvelle de ce massacre leur parvient, le razhi et son armée se précipitent dans la brèche et prennent promptement le contrôle du domaine. Le gaedh qui contrôlait le trône se réjouit du chaos et du tourment qu'il a semés chez les humains, mais préfère prendre la fuite vers les montagnes avant que les Ascendants ne le démasquent.</p>"
+      }
+    },
+    {
+      "start_date":{
+        "year": "0"
+      },
+      "text":{
+        "headline": "<div style='color:#156523'>Medainë est unifié, avènement du razhiga</div>",
+        "text": "<p>Au terme de dernières manigances dans les cours nobles du pays, Limeg<sup>er</sup> étend son autorité royale aux neuf domaines de Medainë et dirige ainsi tout le pays depuis son trône. En écho à son propre titre, il donne à ce nouvel état le nom de « razhiga » et à ses sujets celui de « Meda-vê », marquant symboliquement l'unification de tous les Me'eda et la rupture avec la culture tribale ancestrale. Le souverain souhaite ainsi fédérer ses sujets au travers de leur appartenance à un seul et même peuple, vivant au sein d'un même pays et loyal à une même couronne. Il espère également étouffer les rivalités régionales que des siècles de conflits fratricides avaient attisées.</p><p>Limeg I<sup>er</sup>réfrène toutefois ces ambitions unificatrices sous la pression de la classe aristocratique, qui compte bien conserver ses privilèges. Les populations, d'abord assez indifférentes, finissent par accueillir favorablement ces changements qui leur épargnent les douanes, les querelles territoriales et les guerres.</p>"
+      }
+    },
+    {
+      "start_date":{
+        "year": "4"
+      },
+      "text":{
+        "headline": "Fin de la traque du gaedh",
+        "text": "<p></p>"
       }
     }
   ]
