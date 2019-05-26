@@ -13,7 +13,7 @@
       height: 150px;
       top: 10px;
       left: 10px;
-      background-color: beige;
+      background-color: #f2f2f2;
       z-index: 100; /* Make sure it is in front */
       border: solid 1px black;
     }
@@ -21,7 +21,7 @@
       position: absolute;
       top: 10px !important;
       left: 220px !important;
-      z-index: 100;
+      z-index: 100; /* Make sure it is in front */
     }
   </style>
   <script src="https://unpkg.com/gojs/release/go.js"></script>
@@ -33,27 +33,36 @@
     // Base URL for hyperlinks to wiki pages
     var baseURL = "../doku.php?id=";
 
-    function formatInfoText(info) {
-      var str = "";
-      if (info.title) str += "Title: " + info.title;
-      if (info.headOf) str += "\n\nHead of: " + info.headOf;
-      if (typeof info.boss === "number") {
-        var bossinfo = treeDiagram.model.findNodeDataForKey(info.boss);
-        if (bossinfo !== null) {
-          str += "\n\nReporting to: " + bossinfo.name;
+
+    function changeBoxColor(box, defColor, newColor) {
+      var attrIndex = 0;
+      var attrNames = Object.keys(box);
+      var changeDone = false;
+
+      while (!changeDone && attrIndex < attrNames.length) {
+        var attr = box[attrNames[attrIndex]];
+        var subIndex = 0;
+
+        if (attr !== null) {
+          var subNames = Object.keys(attr);
+          while (!changeDone && subIndex < subNames.length) {
+            var subAttr = attr[subNames[subIndex]];
+            if (subAttr === defColor) {
+              attr[subNames[subIndex]] = newColor;
+              changeDone = true;
+              console.log("Replaced " + defColor + " by " + newColor);
+            }
+            subIndex++; }
         }
-      }
-      return str;
+        attrIndex++; }
     }
 
-    function swapBoxColor(box, defColor, newColor) {
-      for (var key in box) {
-        if (box.hasOwnProperty(key)) {
-          for (var subkey in box.key) {
-            if (box.key.hasOwnProperty(subkey)) {
-              if (box.key == defColor) {
-                box.key = newColor;
-                return "Done." } } } } }
+    function formatInfoText(info) {
+      var str = "";
+      if (info.title) str += info.title;
+      if (info.birth && info.death) str += info.birth " \u2014 " + info.death;
+      if (info.reign) str += "\u{1F451} " + info.reign + " ans";
+      return str;
     }
 
     function makeDiagram(nodeData) {
@@ -87,7 +96,7 @@
         $(go.Node, "Auto",
           // Outer shape for Node, surrounding the Table
           $(go.Shape, "Rectangle",
-            { stroke: null, strokeWidth: 0, fill: "#f2f2b6" }),
+            { stroke: null, strokeWidth: 0, fill: "#f1f1da" }),
           // Table to contain different parts of the Node
           $(go.Panel, "Table",
             { margin: 6, maxSize: new go.Size(200, NaN) },
@@ -98,13 +107,22 @@
                 stretch: go.GraphObject.Horizontal,
                 alignment: go.Spot.Left
               }),
-            // Name
-            $(go.TextBlock,
+            // Colored header
+            $(go.Shape, "Rectangle",
               {
-                row: 0, column: 0,
-                maxSize: new go.Size(160, NaN), margin: 2,
-                font: "500 16px Arial, sans-serif",
+                row: 0, column: 0, height: 37,
+                stroke: null, strokeWidth: 0,
                 alignment: go.Spot.Top
+              },
+              new go.Binding("fill", "gender", function(gen) {
+                return (gen === "m" ? "#9ce29c" : "#8585e0") })),
+            // Name
+            $("HyperlinkText",
+              {
+                row: 0, column: 0, height: 40,
+                verticalAlignment: go.Spot.Center,
+                margin: new go.Margin(0, 0, 0, 10),
+                font: "bold 16px Arial, sans-serif"
               },
               new go.Binding("text", "name")),
             // Additional info
@@ -114,11 +132,11 @@
                 font: "12px Arial, sans-serif"
               },
               new go.Binding("text", "", formatInfoText)),
-            // Hyperlink
+            // Hyperlink to wiki page
             $("HyperlinkText",
-              function(node) { return baseURL + node.data.key.toString();},
-              function(node) { return node.data.name},
-              { row: 2, column: 0}),
+              function(node) { return baseURL + node.data.link.toString();},
+              "> Wiki",
+              { row: 2, column: 0, font: "Italic 12px Arial, sans-serif"}),
           )
         );
 
@@ -126,13 +144,13 @@
       treeDiagram.linkTemplate =
         $(go.Link, go.Link.Orthogonal,
           { corner: 5, selectable: false },
-          $(go.Shape, { strokeWidth: 3, stroke: "#424242" }));  // Dark gray, rounded corner links
+          $(go.Shape, { strokeWidth: 3, stroke: "#424242" })); // Dark gray, rounded corner links
 
       // Create Model with data for the tree, and assign to Diagram
       treeDiagram.model =
         $(go.TreeModel,
           {
-            nodeParentKeyProperty: "boss",  // This property refers to the parent node data
+            nodeParentKeyProperty: "parent",  // This property refers to the parent node data
             nodeDataArray: nodeData.nodes
           });
 
@@ -142,7 +160,7 @@
           // Indicate which Diagram to show and pan
           { observed: treeDiagram, contentAlignment: go.Spot.Center });
       // Change default color of the rectangle box
-      swapBoxColor(miniview.box, "magenta", "gray")
+      changeBoxColor(miniView.box, "magenta", "dimgray")
 
       // Zoom slider
       zoomSlider = new ZoomSlider(treeDiagram,
