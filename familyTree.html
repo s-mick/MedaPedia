@@ -56,7 +56,7 @@
                 return "Done." } } } } }
     }
 
-    function makeDiagram(nodeDataArray) {
+    function makeDiagram(nodeData) {
       treeDiagram =
         $(go.Diagram, "treeDiv",
           {
@@ -157,7 +157,8 @@
         xhr.open('GET', src, true);
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4 && xhr.status == "200") {
-              callback(xhr.responseText);
+              console.log("Remote JSON loaded.")
+              callback(JSON.parse(xhr.responseText));
             }
         };
         xhr.send(null);
