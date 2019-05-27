@@ -59,36 +59,26 @@
 
     function formatInfoText(info) {
       var str = "";
-      if (info.title) str += info.title;
-      if (info.birth && info.death) str += info.birth + " \u2014 " + info.death;
-      if (info.reign) str += "\u{1F451} " + info.reign + " ans";
+      if (info.title) str += info.title + "\n";
+      if (info.birth && info.death)
+        str += info.birth + " / " + info.death;
+      if (info.reign_start && info.reign_end)
+        str += "\n\u{1F451} " + info.reign_start + " / " + info.reign_end;
       return str;
     }
 
     function makeDiagram(nodeData) {
       treeDiagram =
         $(go.Diagram, "treeDiv",
-          {
-            // Put diagram contents at the top center of viewport
+          { // Put diagram contents at the top center of viewport
             initialDocumentSpot: go.Spot.TopCenter,
             initialViewportSpot: go.Spot.TopCenter,
             layout:
-              $(go.TreeLayout,  // use a TreeLayout to position all nodes
+              $(go.TreeLayout,
                 {
-                  treeStyle: go.TreeLayout.StyleLastParents,
-                  // Properties for most of the tree:
+                  treeStyle: go.TreeLayout.StyleLayered,
                   angle: 90,
-                  layerSpacing: 80,
-                  // Properties for the "last parents":
-                  alternateAngle: 0,
-                  alternateAlignment: go.TreeLayout.AlignmentStart,
-                  alternateNodeIndent: 20,
-                  alternateNodeIndentPastParent: 1,
-                  alternateNodeSpacing: 20,
-                  alternateLayerSpacing: 40,
-                  alternateLayerSpacingParentOverlap: 1,
-                  alternatePortSpot: new go.Spot(0.001, 1, 20, 0),
-                  alternateChildPortSpot: go.Spot.TopLeft
+                  layerSpacing: 20,
                 })
           });
 
@@ -99,44 +89,39 @@
             { stroke: null, strokeWidth: 0, fill: "#f1f1da" }),
           // Table to contain different parts of the Node
           $(go.Panel, "Table",
-            { margin: 6, maxSize: new go.Size(200, NaN) },
-            // TextBlocks in column 0 both stretch in width but align on left side
+            { margin: 6, minSize: new go.Size(100, NaN), maxSize: new go.Size(145, NaN) },
+            // TextBlocks stretch in width
             $(go.RowColumnDefinition,
-              {
-                column: 0,
-                stretch: go.GraphObject.Horizontal,
-                alignment: go.Spot.Left
-              }),
+              { column: 0}),//, stretch: go.GraphObject.Horizontal }),
             // Colored header
             $(go.Shape, "Rectangle",
-              {
-                row: 0, column: 0, height: 37,
-                stroke: null, strokeWidth: 0,
-                alignment: go.Spot.Top
-              },
+              { row: 0, column: 0, columnSpan: 1, height: 27,
+                stroke: null, strokeWidth: 0, alignment: go.Spot.TopLeft },
               new go.Binding("fill", "gender", function(gen) {
-                return (gen === "m" ? "#9ce29c" : "#8585e0") })),
-            // Name
+                return (gen === "m" ? "#9ce29c" : "#a8a8f0") })),
+            // Name as a hyperlink
             $("HyperlinkText",
-              {
-                row: 0, column: 0, height: 40,
+              function(node) { return baseURL + node.data.link; },
+              function(node) { return node.data.name; },
+              { row: 0, column: 0, height: 30,
                 verticalAlignment: go.Spot.Center,
-                margin: new go.Margin(0, 0, 0, 10),
-                font: "bold 16px Arial, sans-serif"
-              },
-              new go.Binding("text", "name")),
+                margin: new go.Margin(0, 0, 0, 8),
+                font: "bold 14px Arial, sans-serif" }),
+            // Crown emoji if applicable
+            $(go.TextBlock,
+              new go.Binding("text", "reign", function(r) {
+                return r ? "\u{1F451}" : "" }) ,
+              { row: 0, column: 0, margin: new go.Margin(0, 8, 0, 0),
+                alignment: go.Spot.Right }
+            ),
             // Additional info
             $(go.TextBlock,
+              new go.Binding("text", "", formatInfoText),
               {
-                row: 1, column: 0, columnSpan: 2,
+                row: 1, column: 0, columnSpan: 1,
+                margin: new go.Margin(0, 0, 0, 4), alignment: go.Spot.Left,
                 font: "12px Arial, sans-serif"
-              },
-              new go.Binding("text", "", formatInfoText)),
-            // Hyperlink to wiki page
-            $("HyperlinkText",
-              function(node) { return baseURL + node.data.link.toString();},
-              "> Wiki",
-              { row: 2, column: 0, font: "Italic 12px Arial, sans-serif"}),
+              })
           )
         );
 
