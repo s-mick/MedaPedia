@@ -9,8 +9,8 @@
   <style type="text/css">
     #miniViewDiv {
       position: absolute;
-      width: 200px;
-      height: 150px;
+      width: 165px;
+      height: 125px;
       top: 10px;
       left: 10px;
       background-color: #f2f2f2;
@@ -20,7 +20,7 @@
     .zoomSlider {
       position: absolute;
       top: 10px !important;
-      left: 220px !important;
+      left: 185px !important;
       z-index: 100; /* Make sure it is in front */
     }
   </style>
@@ -57,13 +57,22 @@
         attrIndex++; }
     }
 
-    function formatInfoText(info) {
+    function getBirthDeath(info) {
       var str = "";
-      if (info.title) str += info.title + "\n";
       if (info.birth && info.death)
-        str += info.birth + " / " + info.death;
-      if (info.reign_start && info.reign_end)
-        str += "\n" + info.reign_start + " / " + info.reign_end + " \u{1F451}";
+        str = info.birth + " / " + info.death;
+      return str = ""
+    }
+
+    function getTitles(info) {
+      var str = "";
+      if (info.titles && info.titles.length > 0) {
+        str += info.titles[0]  // Main title (always exists)
+        if (info.reign_start && info.reign_end)
+          str += "(" + info.reign_start + " / " + info.reign_end + ")"
+        for (var otherTitle in info.titles.slice(1))  // Other titles (optional)
+          str += "\n" + otherTitle
+      }
       return str;
     }
 
@@ -78,7 +87,7 @@
                 {
                   treeStyle: go.TreeLayout.StyleLayered,
                   angle: 90,
-                  layerSpacing: 25,
+                  layerSpacing: 30,
                 })
           });
 
@@ -87,38 +96,46 @@
           // Outer shape for Node, surrounding the Table
           $(go.Shape, "Rectangle",
             { stroke: null, strokeWidth: 0, fill: "#f1f1da" }),
-          // Table to contain different parts of the Node
+          // Table to contain Node info
           $(go.Panel, "Table",
-            { minSize: new go.Size(115, NaN), maxSize: new go.Size(145, NaN) },
-            // Colored header
+            { minSize: new go.Size(115, NaN), maxSize: new go.Size(150, NaN) },
+            // Colored header indicating gender
             $(go.Shape, "Rectangle",
-              { row: 0, column: 0, stretch: go.GraphObject.Horizontal, height: 27,
-                stroke: null, strokeWidth: 0, alignment: go.Spot.TopLeft },
+              { row: 0, column: 0, height: 27,
+                stretch: go.GraphObject.Horizontal, alignment: go.Spot.TopLeft,
+                stroke: null, strokeWidth: 0 },
               new go.Binding("fill", "gender", function(gen) {
                 return (gen === "m" ? "#9ce29c" : "#a8a8f0") })),
-            // Name as a hyperlink
+            // Name as a hyperlink to a wiki page
             $("HyperlinkText",
               function(node) { return baseURL + node.data.link; },
               function(node) { return node.data.name; },
               { row: 0, column: 0, height: 30,
                 alignment: go.Spot.Left, verticalAlignment: go.Spot.Center,
-                margin: new go.Margin(0, 0, 0, 5),
+                margin: new go.Margin(0, 0, 0, 8),
                 font: "bold 14px Arial, sans-serif" }),
             // Crown emoji if applicable
             $(go.TextBlock,
               new go.Binding("text", "reign_start", function(r) {
                 return r ? "\u{1F451}" : "" }) ,
-              { row: 0, column: 0, margin: new go.Margin(0, 6, 0, 0),
+              { row: 0, column: 0, margin: new go.Margin(0, 4, 0, 0),
                 alignment: go.Spot.Right }
             ),
-            // Additional info
+            // Dates of birth and death
             $(go.TextBlock,
-              new go.Binding("text", "", formatInfoText),
+              new go.Binding("text", "", getBirthDeath),
               {
-                row: 1, column: 0, margin: 5, alignment: go.Spot.Left,
-                font: "12px Arial, sans-serif",
-                isMultiline: true, wrap: go.TextBlock.WrapFit
-              })
+                row: 1, column: 0, margin: new go.Margin(0, 5, 5, 5),
+                font: "12px Arial, sans-serif", alignment: go.Spot.Left,
+                stretch: go.GraphObject.Vertical
+              }),
+            // Titles and reign dates if applicable
+            $(go.TextBlock,
+              new go.Binding("text", "", getTitles)
+              { row: 2, column: 0, margin: new go.Margin(2, 5, 5, 5),
+              font: "12px Arial, sans-serif", alignment: go.Spot.Left,
+              stretch: go.GraphObject.Vertical
+            })
           )
         );
 
@@ -147,7 +164,7 @@
       // Zoom slider
       zoomSlider = new ZoomSlider(treeDiagram,
         { alignment: go.Spot.TopLeft, alignmentFocus: go.Spot.TopLeft,
-          size: 150, buttonSize: 25, orientation: 'vertical' });
+          size: 125, buttonSize: 25, orientation: 'vertical' });
     }
 
     // Access then load source JSON file online
