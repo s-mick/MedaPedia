@@ -19,7 +19,7 @@
     }
     .zoomSlider {
       position: absolute;
-      top: 10px !important;
+      top: 10px !important;   /* Bring the slider next to the mini overview */
       left: 185px !important;
       z-index: 100; /* Make sure it is in front */
     }
@@ -28,10 +28,12 @@
   <script src="https://unpkg.com/gojs/extensions/HyperlinkText.js"></script>
   <script src="https://unpkg.com/gojs/extensions/ZoomSlider.js"></script>
   <script id="code">
-    // Convenient shortcut for the rest of the script
+    // Conveniency shortcut for the rest of the script
     var $ = go.GraphObject.make;
-    // Base URL for hyperlinks to wiki pages
+    // URL prefix for hyperlinks to wiki pages
     var baseURL = "../doku.php?id=";
+    // Dictionary of fill colors corresponding to families
+    var familyColors = {"s": "#f5e1d5", "t": "#eae8b4", "l": "#f0f0f0"}
 
 
     function changeBoxColor(box, defColor, newColor) {
@@ -61,7 +63,7 @@
       var str = "";
       if (info.birth && info.death)
         str = info.birth + " / " + info.death;
-      return str = ""
+      return str
     }
 
     function getTitles(info) {
@@ -69,8 +71,8 @@
       if (info.titles && info.titles.length > 0) {
         str += info.titles[0]  // Main title (always exists)
         if (info.reign_start && info.reign_end)
-          str += "(" + info.reign_start + " / " + info.reign_end + ")"
-        for (var otherTitle in info.titles.slice(1))  // Other titles (optional)
+          str += " " + info.reign_start + " / " + info.reign_end
+        for (var otherTitle of info.titles.slice(1))  // Other titles (optional)
           str += "\n" + otherTitle
       }
       return str;
@@ -87,18 +89,20 @@
                 {
                   treeStyle: go.TreeLayout.StyleLayered,
                   angle: 90,
-                  layerSpacing: 30,
+                  layerSpacing: 25,
                 })
           });
 
       treeDiagram.nodeTemplate =
         $(go.Node, "Auto",
-          // Outer shape for Node, surrounding the Table
+          // Node outer shape around the Table, fill color indicating family
           $(go.Shape, "Rectangle",
-            { stroke: null, strokeWidth: 0, fill: "#f1f1da" }),
+            { stroke: null, strokeWidth: 0},
+           new go.Binding("fill", "family", function(fam) {
+             return familyColors[fam] })),
           // Table to contain Node info
           $(go.Panel, "Table",
-            { minSize: new go.Size(115, NaN), maxSize: new go.Size(150, NaN) },
+            { minSize: new go.Size(90, NaN), maxSize: new go.Size(170, NaN) },
             // Colored header indicating gender
             $(go.Shape, "Rectangle",
               { row: 0, column: 0, height: 27,
@@ -125,14 +129,14 @@
             $(go.TextBlock,
               new go.Binding("text", "", getBirthDeath),
               {
-                row: 1, column: 0, margin: new go.Margin(0, 5, 5, 5),
+                row: 1, column: 0, margin: new go.Margin(2, 5, 0, 5),
                 font: "12px Arial, sans-serif", alignment: go.Spot.Left,
                 stretch: go.GraphObject.Vertical
               }),
             // Titles and reign dates if applicable
             $(go.TextBlock,
-              new go.Binding("text", "", getTitles)
-              { row: 2, column: 0, margin: new go.Margin(2, 5, 5, 5),
+              new go.Binding("text", "", getTitles),
+              { row: 2, column: 0, margin: 5,
               font: "12px Arial, sans-serif", alignment: go.Spot.Left,
               stretch: go.GraphObject.Vertical
             })
@@ -164,7 +168,7 @@
       // Zoom slider
       zoomSlider = new ZoomSlider(treeDiagram,
         { alignment: go.Spot.TopLeft, alignmentFocus: go.Spot.TopLeft,
-          size: 125, buttonSize: 25, orientation: 'vertical' });
+          size: 125, buttonSize: 25, orientation: "vertical" });
     }
 
     // Access then load source JSON file online
