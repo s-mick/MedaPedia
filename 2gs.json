@@ -2,55 +2,55 @@
   "title": {
     "text": {
       "headline": "Seconde guerre savadique",
-      "text": "<p></p>"
+      "text": "<p>En -328, la passe de Savad est franchie une seconde fois par une force militaire étrangère. Les armées des royaumes d'Aleb et Silig s'emparent du domaine de Kodosha par une invasion éclair qui prend de court les Me'eda. Un statu quo s'installe alors pour quelques années, en dépit de l'occupation importune par Aleb. Le conflit s'embrase de nouveau en -325 lorsque Taalses profite d'un incident diplomatique pour entrer en guerre et tenter de reconquérir Kodosha. Le domaine guerroie seul pendant trois ans avant d'être rejoint par le reste de Medainë, qui ne peut plus demeurer neutre. Avec ce soutien décisif, le territoire occupé est repris, les envahisseurs repoussés et la couronne légitime rétablie après six ans d'exil.</p>"
     }
   },
   "events": [
     {
       "start_date": {
-        "year": "-328"
-      },
-      "text": {
-        "headline": "Silig et Aleb envahissent Kodosha",
-        "text": "<p></p>"
-      }
-    },
-    {
-      "start_date": {
         "year": "-329"
       },
-      "end_date": {
-        "year": "-327"
-      },
       "text": {
-        "headline": "Occupation",
-        "text": "<p>L'envahisseur destitue le seigneur légitime</p>"
+        "headline": "Aleb et Silig envahissent Kodosha",
+        "text": "<p>Une armée de presque trente mille soldats du royaume d'Aleb et de son allié Silig franchissent la passe de Savad par le sud et marchent vers Kodosha-da. Avantagé par les reconnaissances de Montagnards infiltrés derrière les lignes me'eda, l'envahisseur s'empare d'abord des forteresses frontalières les plus vulnérables puis encercle facilement les autres places fortes. Grâce à sa supériorité numérique, l'envahisseur marche rapidement sur le reste du domaine, encore sous le choc. La famille royale de Kodosha se réfugie précipitamment à Taalses tandis que ses généraux lèvent en urgence des troupes de défense. Celles-ci parviennent finalement à stopper la progression des assaillants lors d'une sanglante bataille à l'est du domaine, combattant à un contre six au bord d'un gué. Les pertes sont si lourdes qu'aucun camp n'en sort vraiment vainqueur, mais l'état-major d'Aleb est forcé d'ordonner la retraite pour préserver le restant de ses troupes.</p>"
       }
     },
     {
       "start_date": {
+        "year": "-328"
+      },
+      "end_date": {
         "year": "-326"
       },
-      "end_date": {
-        "year": "-324"
-      },
       "text": {
-        "headline": "Taalses combat en solitaire",
-        "text": "<p></p>"
+        "headline": "Occupation par Aleb",
+        "text": "<p>Lorsque les armées étrangères cessent leur progression, elles occupent plus des quatre cinquièmes du territoire de Kodosha. Tandis que les troupes de Silig se retirent avec leur part du butin des pillages, les forces d'Aleb consolident leurs positions militaires pour se prémunir d'une contre-attaque. En dépit des vives tensions diplomatiques et de l'absence d'accord de paix officiel, ni l'occupant ni les domaines voisins n'envisagent une reprise du conflit armé. Ainsi, une trêve s'installe de fait, malgré les appels à la reconquête par le seigneur légitime en exil.</p><p>L'occupant profite de ce retour au calme pour imposer sa loi à Kodosha en instaurant des tributs réguliers et en donnant le trône à un seigneur forcé de prêter allégeance à leur couronne. Derrière cette façade, les officiers d'Aleb font main basse sur les postes de pouvoir et évincent les personnalités influentes qui rechignent à leur obéir.</p>"
       }
     },
     {
       "start_date": {
+        "year": "-325"
+      },
+      "end_date": {
         "year": "-323"
       },
       "text": {
-        "headline": "Le reste de Medainë entre en guerre",
-        "text": "<p></p>"
+        "headline": "Taalses guerroie en solitaire",
+        "text": "<p>Soupçonnant une tentative d'espionnage, des soldats d'Aleb arrêtent une caravane de pèlerins en provenance de Taalses et traversant une zone occupée. L'occupant prétend avoir découvert dans leurs bagages des preuves qu'ils sont bel et bien des espions, tandis que les autorités de Taalses nient catégoriquement et exigent que les prisonniers leur soient remis. Mais l'occupant refuse toute négociation, renvoie les émissaires me'eda et fait exécuter les pèlerins publiquement, pour l'exemple.</p><p>Furieux, le roi de Taalses profite de ce différend pour enfin prendre les armes contre ce voisin qu'il exècre : il rassemble huit mille soldats et part à la reconquête de Kodosha. Même si les autres seigneurs de Medainë n'osent intervenir directement, ils soutiennent matériellement cette entrée en guerre en fournissant armes et montures. Les forces d'occupation, qui s'étaient relâchées au fil des trois ans de trêve, sont tellement secouées par cette offensive qu'elles réclament du renfort à leur royaume d'origine. Grâce à cette aide, elles tiennent bon face aux troupes Me'eda, qui peinent à gagner du terrain.</p>"
       }
     },
     {
       "start_date": {
         "year": "-322"
+      },
+      "text": {
+        "headline": "Le reste de Medainë rejoint le conflit",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-321"
       },
       "text": {
         "headline": "Reddition des envahisseurs",
