@@ -36,7 +36,7 @@
       },
       "text": {
         "headline": "Taalses guerroie en solitaire",
-        "text": "<p>Soupçonnant une tentative d'espionnage, des soldats d'Aleb arrêtent une caravane de pèlerins en provenance de Taalses et traversant une zone occupée. L'occupant prétend avoir découvert dans leurs bagages des preuves qu'ils sont bel et bien des espions, tandis que les autorités de Taalses nient catégoriquement et exigent que les prisonniers leur soient remis. Mais l'occupant refuse toute négociation, renvoie les émissaires me'eda et fait exécuter les pèlerins publiquement, pour l'exemple.</p><p>Furieux, le roi de Taalses profite de ce différend pour enfin prendre les armes contre ce voisin qu'il exècre : il rassemble huit mille soldats et part à la reconquête de Kodosha. Même si les autres seigneurs de Medainë n'osent intervenir directement, ils soutiennent matériellement cette entrée en guerre en fournissant armes et montures. Les forces d'occupation, qui s'étaient relâchées au fil des trois ans de trêve, sont tellement secouées par cette offensive qu'elles réclament du renfort à leur royaume d'origine. Grâce à cette aide, elles tiennent bon face aux troupes Me'eda, qui peinent à gagner du terrain.</p>"
+        "text": "<p>Soupçonnant une tentative d'espionnage, des soldats d'Aleb arrêtent une caravane de pèlerins en provenance de Taalses et traversant une zone occupée. L'occupant prétend avoir découvert dans leurs bagages des preuves qu'ils sont bel et bien des espions, tandis que les autorités de Taalses nient catégoriquement et exigent que les prisonniers leur soient remis. Mais l'occupant refuse toute négociation, renvoie les émissaires me'eda et fait exécuter les pèlerins publiquement, pour l'exemple.</p><p>Furieux, le seigneur de Taalses profite de ce différend pour enfin prendre les armes contre ce voisin qu'il exècre : il rassemble huit mille soldats et part à la reconquête de Kodosha. Même si les autres seigneurs de Medainë n'osent intervenir directement, ils soutiennent matériellement cette entrée en guerre en fournissant armes et montures. Les forces d'occupation, qui s'étaient relâchées au fil des trois ans de trêve, sont d'abord secouées par cette offensive, qui bénéficie du soutien de loyalistes luttant clandestinement. L'avancée des assaillants est si irrésistible que l'occupant doit réclamer du renfort à son royaume d'origine. Lorsque celui-ci arrive enfin, l'armée d'Aleb parvient à reprendre du terrain aux soldats Me'eda. Au terme de trois ans de duel, le territoire occupé est à peine plus petit qu'auparavant, mais les morts se comptent en milliers.</p>"
       }
     },
     {
@@ -45,7 +45,7 @@
       },
       "text": {
         "headline": "Le reste de Medainë rejoint le conflit",
-        "text": "<p></p>"
+        "text": "<p>Un conseiller de la dame de Yomba met au jour un complot ciblant ourdi par le frère de la monarque, qui convoite sa couronne. Il découvre que ce dernier conspire avec les autorités d'Aleb afin de faire assassiner sa sœur, en échange de quoi il se rangerait en tant que seigneur de Yomba aux côtés de l'occupant pour guerroyer face à Taalses. L'affaire scandalise les cours de Medainë, qui s'inquiètent de voir Aleb étendre son influence sur d'autres domaines du pays. Tandis que Yomba fait exécuter les conspirateurs, le seigneur de Jelain appelle à la riposte militaire et exhorte ses compatriotes à venir en aide à Taalses contre Aleb. Les seigneurs les plus hésitants à prendre les armes sont pour leur part convaincus par les enjeux économiques : le blocage des voies commerciales vers l'ouest, qui dure depuis des années, n'épargne pas les états restés neutres… Finalement, à la plus grande joie du seigneur légitime de Kodosha, toutes les couronnes du pays s'accordent pour bouter l'occupant hors de Medainë et faire cesser cette guerre au plus vite.</p>"
       }
     },
     {
@@ -53,8 +53,8 @@
         "year": "-321"
       },
       "text": {
-        "headline": "Reddition des envahisseurs",
-        "text": "<p></p>"
+        "headline": "Reconquête et reddition de l'occupant",
+        "text": "<p>Des troupes accourent de tout Medainë en renfort de l'armée de Taalses, à bout de forces après ces années de combats. Pour le temps de cette reconquête, les inimités entre domaines et les rancœurs des guerres fratricides sont mises de côté. Avec la supériorité numérique désormais en faveur des Me'eda, le gros du territoire occupé est rapidement repris et les places fortes cèdent l'une après l'autre. De l'autre côté de la passe de Savad, Silig ignore les appels à l'aide de son allié et refuse de s'engager de nouveau dans ce conflit qui tourne au vinaigre…</p><p>Six mois après leur entrée en guerre collective, les troupes me'eda ne sont plus qu'à quelques jours de marche de Kodosha-da et avancent par le nord et l'est vers le dernier bastion de l'occupant. Celui-ci, acculé et en déroute, n'a d'autre choix que de rendre les armes. Le traité de paix force Aleb à restituer tous les territoires occupés et payer d'exorbitants dommages de guerre. Taalses et Kodosha exigent également que la passe de Savad et ses environs soient débarrassés de toute présence militaire, d'un bout à l'autre de la frontière. Silig, dont le rôle dans l'invasion n'a pas été oublié, est lui aussi sommé de respecter cette zone d'exclusion, en dépit de son absence lors des négociations de paix.</p>"
       }
     }
   ]
