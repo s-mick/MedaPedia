@@ -34,7 +34,7 @@
      "link": "", "family": "s", "gender": "m", "parent": "ninssoanm", "birth": "10", "death": "45",
      "name": "Ninsso II", "titles": ["Prince", "Seigneur de Taalses"]},
     {"key": "andluma",
-     "link": "", "family": "t", "gender": "f", "parent": "limeg3", "birth": "11", "death": "59",
+     "link": "", "family": "s", "gender": "f", "parent": "limeg3", "birth": "11", "death": "59",
      "name": "Andluma", "titles": ["Petite duchesse"]},
     {"key": "ninsso3",
      "link": "", "family": "t", "gender": "f", "parent": "ninsso2", "birth": "27", "death": "80",
