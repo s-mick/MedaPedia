@@ -1,39 +1,68 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
   <title>Arbre généalogique</title>
+  <meta charset="UTF-8">
   <meta name="description" content="Arbre généalogique des razhi de Medainë" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <style type="text/css">
+    th {
+      padding-left: 2px;
+      font-size: 10pt;
+      font-weight: bold;
+      text-align: left;
+    }
+    td {
+      font-size: 10pt;
+    }
+    .legcolor {
+      width: 24px;
+      height: 24px;
+      border: solid 2px grey;
+    }
+    .leglabel {
+      height: 24px;
+      padding-left: 2px;
+      padding-right: 12px;
+    }
+    #legendTable {
+      position: absolute;
+      top: 10px;
+      right: 8px;
+      background-color: #f7f7f7;
+      z-index: 100; /* Make sure the legend is in front */
+      border: solid 1px black;
+    }
     #miniViewDiv {
       position: absolute;
-      width: 165px;
-      height: 125px;
       top: 10px;
       left: 10px;
-      background-color: #f2f2f2;
-      z-index: 100; /* Make sure it is in front */
+      width: 165px;
+      height: 125px;
+      background-color: #f7f7f7;
+      z-index: 100;
       border: solid 1px black;
     }
     .zoomSlider {
       position: absolute;
       top: 10px !important;   /* Bring the slider next to the mini overview */
       left: 185px !important;
-      z-index: 100; /* Make sure it is in front */
+      z-index: 100;
     }
   </style>
+
   <script src="https://unpkg.com/gojs/release/go.js"></script>
   <script src="https://unpkg.com/gojs/extensions/HyperlinkText.js"></script>
   <script src="https://unpkg.com/gojs/extensions/ZoomSlider.js"></script>
   <script id="code">
-    // Conveniency shortcut for the rest of the script
+    // Convenient shortcut for the rest of the script
     var $ = go.GraphObject.make;
     // URL prefix for hyperlinks to wiki pages
-    var baseURL = "../doku.php?id=";
+    var baseURL = "../doku.php?id=histoire:histoire_humaine:razhiga:razhi:";
+    // Dictionary of full family names
+    var famNames = {"s": "rois_de_sang", "t": "taalseides", "l": "ludsourides"}
     // Dictionary of fill colors corresponding to families
-    var familyColors = {"s": "#f4f1cd", "t": "#e7e7e7", "l": "#d7e4f7"}
+    var famColors = {"s": "#f4f1cd", "t": "#e7e7e7", "l": "#d7e4f7"}
 
 
     function changeBoxColor(box, defColor, newColor) {
@@ -99,7 +128,7 @@
           $(go.Shape, "Rectangle",
             { stroke: null, strokeWidth: 0},
            new go.Binding("fill", "family", function(fam) {
-             return familyColors[fam] })),
+             return famColors[fam] })),
           // Table to contain Node info
           $(go.Panel, "Table",
             { minSize: new go.Size(90, NaN), maxSize: new go.Size(170, NaN) },
@@ -110,9 +139,10 @@
                 stroke: null, strokeWidth: 0 },
               new go.Binding("fill", "gender", function(gen) {
                 return (gen === "m" ? "#9ce29c" : "#a8a8f0") })),
-            // Name as a hyperlink to a wiki page
+            // Name as a hyperlink if applicable, else as a text block
             $("HyperlinkText",
-              function(node) { return baseURL + node.data.link; },
+              function(node) { return baseURL + famNames[node.data.family] + "#"
+                                      + node.data.name.replace(" ", "_"); },
               function(node) { return node.data.name; },
               { row: 0, column: 0, height: 30,
                 alignment: go.Spot.Left, verticalAlignment: go.Spot.Center,
@@ -123,37 +153,33 @@
               new go.Binding("text", "reign_start", function(r) {
                 return r ? "\u{1F451}" : "" }) ,
               { row: 0, column: 0, margin: new go.Margin(0, 4, 0, 0),
-                alignment: go.Spot.Right }
-            ),
+                alignment: go.Spot.Right }),
             // Dates of birth and death
             $(go.TextBlock,
               new go.Binding("text", "", getBirthDeath),
-              {
-                row: 1, column: 0, margin: new go.Margin(2, 5, 0, 5),
+              { row: 1, column: 0, margin: new go.Margin(2, 5, 0, 5),
                 font: "12px Arial, sans-serif", alignment: go.Spot.Left,
-                stretch: go.GraphObject.Vertical
-              }),
+                stretch: go.GraphObject.Vertical }),
             // Titles and reign dates if applicable
             $(go.TextBlock,
               new go.Binding("text", "", getTitles),
               { row: 2, column: 0, margin: 5,
               font: "12px Arial, sans-serif", alignment: go.Spot.Left,
-              stretch: go.GraphObject.Vertical
-            })
+              stretch: go.GraphObject.Vertical })
           )
         );
 
       // Define Link template as a simple orthogonal line
       treeDiagram.linkTemplate =
         $(go.Link, go.Link.Orthogonal,
-          { corner: 5, selectable: false },
-          $(go.Shape, { strokeWidth: 3, stroke: "#424242" })); // Dark gray, rounded corner links
+          { corner: 4, selectable: false }, // Dark gray, rounded corner links
+          $(go.Shape, { strokeWidth: 3, stroke: "#424242" }));
 
       // Create Model with data for the tree, and assign to Diagram
       treeDiagram.model =
         $(go.TreeModel,
           {
-            nodeParentKeyProperty: "parent",  // This property refers to the parent node data
+            nodeParentKeyProperty: "parent",
             nodeDataArray: nodeData.nodes
           });
 
@@ -163,26 +189,27 @@
           // Indicate which Diagram to show and pan
           { observed: treeDiagram, contentAlignment: go.Spot.Center });
       // Change default color of the rectangle box
-      changeBoxColor(miniView.box, "magenta", "dimgray")
+      changeBoxColor(miniView.box, "magenta", "dimgray");
 
       // Zoom slider
       zoomSlider = new ZoomSlider(treeDiagram,
         { alignment: go.Spot.TopLeft, alignmentFocus: go.Spot.TopLeft,
           size: 125, buttonSize: 25, orientation: "vertical" });
+
     }
 
     // Access then load source JSON file online
     function loadJSON(callback, src) {
-        var xhr = new XMLHttpRequest();
-        xhr.overrideMimeType("application/json");
-        xhr.open('GET', src, true);
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState == 4 && xhr.status == "200") {
-              console.log("Remote JSON loaded.")
-              callback(JSON.parse(xhr.responseText));
-            }
-        };
-        xhr.send(null);
+      var xhr = new XMLHttpRequest();
+      xhr.overrideMimeType("application/json");
+      xhr.open("GET", src, true);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == "200") {
+          console.log("Remote JSON loaded.")
+          callback(JSON.parse(xhr.responseText));
+        }
+      };
+      xhr.send(null);
     };
 
     function init() {
@@ -190,15 +217,37 @@
     }
 
     var srcpath = 'https://raw.githubusercontent.com/s-mick/MedaPedia/master/dynasty.json';
-
-</script>
+  </script>
 </head>
+
 <body onload="init()">
 <div id="treeDiagram" style="position: relative;">
   <div id="treeDiv"
-    style="background-color: white; border: solid 1px black; width: 100%; height: 850px">
+    style="background-color: white; border: solid 1px black;
+    width: 100%; height: 98vh;">
   </div>
   <div id="miniViewDiv"></div>
+  <div id="legendTable">
+    <table style="border-spacing: 6px;">
+      <tr><td/><th>Familles</th><td/><th></th></tr>
+      <tr>
+        <td class="legcolor" style="background-color: #f4f1cd;"></td>
+        <td class="leglabel">Rois de sang</td>
+        <td class="legcolor"style="background-color: #9ce29c;"></td>
+        <td class="leglabel">Seigneurs</td>
+      </tr><tr>
+        <td class="legcolor" style="background-color: #e7e7e7;"></td>
+        <td class="leglabel">Taalséides</td>
+        <td class="legcolor" style="background-color: #a8a8f0;"></td>
+        <td class="leglabel">Dames</td>
+      </tr><tr>
+        <td class="legcolor" style="background-color: #d7e4f7;"></td>
+        <td class="leglabel">Ludsourides</td>
+        <td style="text-align: center; font-size: 14pt;">&#x1F451</td>
+        <td class="leglabel">Razhi</td>
+      </tr>
+    </table>
+  </div>
 </div>
 </body>
 </html>
